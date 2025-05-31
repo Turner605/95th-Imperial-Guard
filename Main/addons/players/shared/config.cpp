@@ -411,7 +411,7 @@ class XtdGearModels {
 };
 
 class CfgFactionClasses {
-    class AUX_95th_Legion_Faction_Clones {displayName = "[95th] Clones"; priority = 1; side = 1; scope=2; scopecurator=2;};
+    class AUX_95th_Legion_Faction_Imperial_Guard {displayName = "[95th] Imperial Guard"; priority = 1; side = 1; scope=2; scopecurator=2;};
 };
 
 class CfgEditorSubcategories {

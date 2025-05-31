@@ -4,10 +4,14 @@ class CfgPatches {
     class DOUBLES(PREFIX,COMPONENT) {
         name = COMPONENT_NAME;
         units[] = {
-            QUOTE(DOUBLES(AUX_95th_Unit_P1_Basic,PLAYER_NAME)),
-            QUOTE(DOUBLES(AUX_95th_Unit_P1_MC,PLAYER_NAME)),
-            QUOTE(DOUBLES(AUX_95th_Unit_P1_Cold_Assault,PLAYER_NAME)),
-            QUOTE(DOUBLES(AUX_95th_Unit_Commando,PLAYER_NAME))
+            QUOTE(DOUBLES(AUX_95th_Unit_Unarmoured,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_Unarmoured_Rolled,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_Light,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_Light_Rolled,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_Medium,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_Medium_Rolled,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_Heavy,PLAYER_NAME)),
+            QUOTE(DOUBLES(AUX_95th_Unit_NCO,PLAYER_NAME))
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -34,7 +38,3 @@ class CfgVehicles {
 };
 
 #include "CfgEventHandlers.hpp"
-
-// Helmets
-// Backpacks
-// Uniforms
