@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="95th Legion">
+<Project name="95th Imperial Guard">
   <Package name="Display Names">
     <Container name="Authors">
       <Key ID="STR_AUX_95th_Joint_Author">
@@ -12,13 +12,13 @@
         <German>95th Aux Team</German>
       </Key>
       <Key ID="STR_AUX_95th_Mod_Name">
-        <Original>95th Legion Aux</Original>
-        <English>95th Legion Aux</English>
-        <French>95th Legion Aux</French>
-        <Polish>95th Legion Aux</Polish>
-        <Portuguese>95th Legion Aux</Portuguese>
-        <Russian>95th Legion Aux</Russian>
-        <German>95th Legion Aux</German>
+        <Original>95th Imperial Guard Aux</Original>
+        <English>95th Imperial Guard Aux</English>
+        <French>95th Imperial Guard Aux</French>
+        <Polish>95th Imperial Guard Aux</Polish>
+        <Portuguese>95th Imperial Guard Aux</Portuguese>
+        <Russian>95th Imperial Guard Aux</Russian>
+        <German>95th Imperial Guard Aux</German>
       </Key>
     </Container>
   </Package>

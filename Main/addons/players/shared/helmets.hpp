@@ -1,217 +1,181 @@
 #include "\z\AUX_95th_40k_IG_Main\addons\players\shared\script_squad_defines.hpp"
-class SEA_Helmet_P1_Base;
 
-#if HELMET_P1_BASIC == 1
-    class AUX_95th_Helmet_P1_Basic_##PLAYER_NAME : SEA_Helmet_P1_Base {
+#if HELMET_BASIC == 1
+    class FIG_CadianHelm;
+    class AUX_95th_40k_IG_Helmet_##PLAYER_NAME : FIG_CadianHelm {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelections[]={"Camo1","Visor"};
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_Basic);
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(Standard);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
-#endif
 
-class SEA_Helmet_Engineer_Base;
-
-#if HELMET_P1_ENGINEER == 1
-    class AUX_95th_Helmet_P1_Engineer_##PLAYER_NAME : SEA_Helmet_Engineer_Base {
+    class FIG_CadianHelmGD;
+    class AUX_95th_40k_IG_Helmet_GD_##PLAYER_NAME : FIG_CadianHelmGD {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelections[]={"Camo1","Visor"};
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_Engineer);
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(GD);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
-#endif
 
-class SEA_Helmet_ARF_base;
-
-#if HELMET_P1_ARF == 1
-    class AUX_95th_Helmet_P1_ARF_##PLAYER_NAME : SEA_Helmet_ARF_base {
+    class FIG_CadianHelmGU;
+    class AUX_95th_40k_IG_Helmet_GU_##PLAYER_NAME : FIG_CadianHelmGU {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelections[]={"Camo1","Camo2","Visor"};
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_arf\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_arf\Plates.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_arf\Visor.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_ARF);
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(GU);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
-class LSEA_Helmet_Pilot_P1_Base;
-
-#if HELMET_P1_PILOT == 1
-    class AUX_95th_Helmet_P1_Pilot_##PLAYER_NAME : LSEA_Helmet_Pilot_P1_Base {
+#if HELMET_MASK == 1
+    class FIG_CadianHelmOGMask;
+    class AUX_95th_40k_IG_Helmet_Mask_Visor_##PLAYER_NAME : FIG_CadianHelmOGMask {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelections[]= { "Camo1", "camo2", "Visor" };
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_pilot\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_pilot\LifeSupport.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_pilot\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_Pilot);
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(MaskVisor);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
-#endif
 
-class SEA_Helmet_SpecOps_SR_Base;
-
-#if HELMET_P1_SPECOPS == 1
-    class AUX_95th_Helmet_P1_SpecOps_##PLAYER_NAME : SEA_Helmet_SpecOps_SR_Base {
+    class FIG_CadianHelmOGMaskNV;
+    class AUX_95th_40k_IG_Helmet_Mask_##PLAYER_NAME : FIG_CadianHelmOGMaskNV {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_specops\Helmet.paa), 
-            QUOTE(\JLTS_AE\Data\BaseTextures\SpecOps\Antennas\SR_Antenna_co.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_specops\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_SpecOps);
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(Mask);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
-class SEA_Helmet_Hazard_Base;
-
-#if HELMET_P1_HAZARD == 1
-    class AUX_95th_Helmet_P1_Hazard_##PLAYER_NAME : SEA_Helmet_Hazard_Base {
+#if PATROL_CAP == 1
+    class FIG_CadianCap;
+    class AUX_95th_40k_IG_Patrol_Cap_##PLAYER_NAME : FIG_CadianCap {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_hazard\Helmet.paa), 
-            QUOTE(\JLTS_AE\Data\BaseTextures\Hazard\Necc_CO.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_hazard\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_Hazard);
+            Type = QUOTE(PatrolCap);
+            Variant = QUOTE(Standard);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
-class 3AS_H_ColdAssault_Helmet;
-
-#if HELMET_P1_COLD_ASSAULT == 1
-    class AUX_95th_Helmet_P1_Cold_Assault_##PLAYER_NAME : 3AS_H_ColdAssault_Helmet {
+#if TANKER_CAP == 1
+    class Cad_Tnk_Helm;
+    class AUX_95th_40k_IG_Tanker_Cap_##PLAYER_NAME : Cad_Tnk_Helm {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_cold_assault\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_cold_assault\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_cold_assault\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_Cold_Assault);
+            Type = QUOTE(TankerCap);
+            Variant = QUOTE(Standard);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
-class 3AS_H_Katarn_Helmet;
-
-#if HELMET_P1_COMMANDO == 1
-    class AUX_95th_Helmet_P1_Commando_##PLAYER_NAME : 3AS_H_Katarn_Helmet {
+#if OFFICER_CAP == 1
+    class TIOW_IG_Officer_Cap1_667;
+    class AUX_95th_40k_IG_Officer_Cap_##PLAYER_NAME : TIOW_IG_Officer_Cap1_667 {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelections[]={"Camo1","Visor"};
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_commando\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_commando\Helmet.paa)
-        };
+        // hiddenSelections[]={"Camo1","Visor"};
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
+        // };
         class XtdGearInfo {
-            Phase = "P1";
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P1_Commando);
+            Type = QUOTE(OfficerCap);
+            Variant = QUOTE(Standard);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
-class lsd_gar_airborne_new;
 
-#if HELMET_P2_AIRBORNE == 1
-    class AUX_95th_Helmet_P2_Airborne_##PLAYER_NAME : lsd_gar_airborne_new {
-        scope = 2;
-        scopeArsenal = 2;
-        author="95th Aux Team";
-        DSS_HUD_Lowlight_Enabled = 1;
-        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
-        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p2_airborne\Helmet.paa), 
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p2_airborne\Helmet.paa)
-        };
-        class XtdGearInfo {
-            Phase = "P2";
-            model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(P2_Airborne);
-            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
-        };
-    };
-#endif

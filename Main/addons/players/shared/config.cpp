@@ -7,12 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-			"AUX_95th_main",
-			"JLTS_characters_CloneArmor",
-			"3as_Backpacks",
-			"3as_JLTS_Uniforms",
-			"SEA_JLTS_ExtendedArsenal",
-			"PhoenixCore"
+			"AUX_95th_40k_IG_main"
 		};
         authors[] = {"Turner"};
         VERSION_CONFIG;
