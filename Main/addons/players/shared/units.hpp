@@ -103,7 +103,9 @@
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
         // };
     };
+#endif
 
+#if UNIFORM_NCO == 1
     class FIG_CadianUniformV5_inf_B;
     class AUX_95th_Unit_NCO_##PLAYER_NAME : FIG_CadianUniformV5_inf_B {\
         scope = 2;
