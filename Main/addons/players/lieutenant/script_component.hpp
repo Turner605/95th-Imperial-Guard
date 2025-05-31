@@ -16,7 +16,7 @@
 
 // UNIFORM OPTIONS 0 (False), 1 (True)
 #define UNIFORM_BASIC 0
-#define UNIFORM_NCO 0
+#define UNIFORM_NCO 1
 
 // BACKPACK OPTIONS 0 (False), 1 (True)
 #define BACKPACK_INVISIBLE 0
