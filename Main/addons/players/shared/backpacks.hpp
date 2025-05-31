@@ -12,7 +12,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Invisible";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -32,7 +32,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Light";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -52,7 +52,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Standard";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -70,7 +70,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Standard";
-            Variant = QUOTE(2);
+            Variant = QUOTE(Two);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -88,7 +88,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Standard";
-            Variant = QUOTE(3);
+            Variant = QUOTE(Three);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -108,7 +108,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Medic";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -128,7 +128,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Heavy";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -148,7 +148,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Engineer";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -168,7 +168,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "AT";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
@@ -188,7 +188,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "RTO";
-            Variant = QUOTE(1);
+            Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };

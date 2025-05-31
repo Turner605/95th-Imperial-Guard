@@ -17,7 +17,7 @@ class Type {
 
 class Variant {
 	labels = "Type";
-	values[] = {"1", "2", "3"};
+	values[] = {"One", "Two", "Three"};
 	class One { label = "1"; description = "1"; };
 	class Two { label = "2"; description = "2"; };
 	class Three { label = "3"; description = "3"; };

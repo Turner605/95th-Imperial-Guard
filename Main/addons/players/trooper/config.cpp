@@ -22,7 +22,6 @@ class CfgPatches {
 };
 
 class CfgWeapons {
-	class InventoryItem_Base_F;
     class ItemCore;
     class UniformItem;
     class Uniform_Base: ItemCore { class ItemInfo; };

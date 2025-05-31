@@ -29,15 +29,11 @@
 #define BACKPACK_RTO 1
 
 // VEST OPTIONS 0 (False), 1 (True)
-#define VEST_STANDARD_SET 1
-#define VEST_ARC_SET 1
-#define VEST_OFFICER_SET 1
-#define VEST_COMMANDO_SET 1
+#define VEST_LIGHT_SET 1
+#define VEST_MEDIUM_SET 1
+#define VEST_HEAVY_SET 1
 
 // DO NOT EDIT
 #define PARENTCOMPONENT shared
 #include "\z\AUX_95th_40k_IG_Main\addons\main\script_mod.hpp"
 #include "\z\AUX_95th_40k_IG_Main\addons\main\script_macros.hpp"
-
-//TODO:
-// Vests need replacing really 
