@@ -24,7 +24,6 @@ class CfgPatches {
 class CfgWeapons {
     class ItemCore;
     class UniformItem;
-    class Uniform_Base: ItemCore { class ItemInfo; };
 
     #include "\z\AUX_95th_40k_IG_Main\addons\players\shared\helmets.hpp"
     #include "\z\AUX_95th_40k_IG_Main\addons\players\shared\uniforms.hpp"

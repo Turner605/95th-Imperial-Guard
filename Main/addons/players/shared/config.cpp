@@ -8,7 +8,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
 			"AUX_95th_40k_IG_main",
-			"FIG_Cadians"
+			"FIG_Cadians",
+			"FIG_Additional_Regiments"
 		};
         authors[] = {"Turner"};
         VERSION_CONFIG;
