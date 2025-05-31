@@ -1,0 +1,6 @@
+#define COMPONENT players_shared
+#define COMPONENT_BEAUTIFIED Players_Shared
+#include "\z\AUX_95th_40k_IG_Main\addons\main\script_mod.hpp"
+#include "\z\AUX_95th_40k_IG_Main\addons\main\script_macros.hpp"
+#include "macros\nvg.hpp"
+#include "macros\facewear.hpp"
