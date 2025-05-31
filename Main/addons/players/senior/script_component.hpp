@@ -29,10 +29,9 @@
 #define BACKPACK_RTO 0
 
 // VEST OPTIONS 0 (False), 1 (True)
-#define VEST_STANDARD_SET 0
-#define VEST_ARC_SET 0
-#define VEST_OFFICER_SET 0
-#define VEST_COMMANDO_SET 0
+#define VEST_LIGHT_SET 0
+#define VEST_MEDIUM_SET 0
+#define VEST_HEAVY_SET 0
 
 // DO NOT EDIT
 #define PARENTCOMPONENT shared

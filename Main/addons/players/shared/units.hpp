@@ -8,10 +8,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Unarmoured - Down)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Unarmoured,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPants_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTop_co.paa)
+        };
     };
 
     class FIG_CadianUniformV1Rolled_inf_B;
@@ -23,10 +23,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Unarmoured - Rolled)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Unarmoured,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPants_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopRolled_co.paa)
+        };
     };
 
     class FIG_CadianUniformV2_inf_B;
@@ -38,10 +38,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Light - Down)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Light,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsKnees_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTop_co.paa)
+        };
     };
 
     class FIG_CadianUniformV2Rolled_inf_B;
@@ -53,10 +53,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Light - Rolled)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Light_Rolled,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsKnees_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopRolled_co.paa)
+        };
     };
 
     class FIG_CadianUniformV3_inf_B;
@@ -68,10 +68,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Medium - Down)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Medium,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsThighs_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTop_co.paa)
+        };
     };
 
     class FIG_CadianUniformV3Rolled_inf_B;
@@ -83,10 +83,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Medium - Rolled)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Medium_Rolled,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+ 		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsThighs_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopRolled_co.paa)
+        };
     };
 
     class FIG_CadianUniformV4_inf_B;
@@ -98,10 +98,10 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (Heavy - Rolled)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Heavy,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsThighs_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopGloves_co.paa)
+        };
     };
 #endif
 
@@ -115,9 +115,9 @@
         author="95th Aux Team";
         displayName=QUOTE(PLAYER_NAME_BEAUTIFIED (NCO - Down)); 
         uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_NCO,PLAYER_NAME));
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Upper.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\p1_basic\Uniform_Lower.paa)
-        // };
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsKnees_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopNCO_co.paa)
+        };
     };
 #endif
