@@ -7,7 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-			"AUX_95th_40k_IG_main"
+			"AUX_95th_40k_IG_main",
+			"FIG_Cadians"
 		};
         authors[] = {"Turner"};
         VERSION_CONFIG;
