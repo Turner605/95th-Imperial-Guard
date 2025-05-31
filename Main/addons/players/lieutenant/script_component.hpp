@@ -11,6 +11,7 @@
 #define HELMET_MASK 1
 #define PATROL_CAP 0
 #define TANKER_CAP 0
+#define NCO_CAP 0
 #define OFFICER_CAP 1
 
 // UNIFORM OPTIONS 0 (False), 1 (True)

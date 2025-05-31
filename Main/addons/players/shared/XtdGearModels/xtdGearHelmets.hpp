@@ -4,10 +4,11 @@ options[] = {"Type", "Player", "Variant"};
 class Type {
 	alwaysSelectable = 1;
 	labels = "Type";
-	values[] = {"Helmet", "PatrolCap", "TankerCap", "OfficerCap"};
+	values[] = {"Helmet", "PatrolCap", "TankerCap", "NCOCap", "OfficerCap"};
 	class Helmet { label = "Helmet"; description = "Basic Helmet"; };
 	class PatrolCap { label = "Cap"; description = "Patrol Cap"; };
 	class TankerCap { label = "Tanker"; description = "Tanker Cap"; };
+	class NCOCap { label = "NCO"; description = "NCO Cap"; };
 	class OfficerCap { label = "Officer"; description = "Officer Cap"; };
 };
 
