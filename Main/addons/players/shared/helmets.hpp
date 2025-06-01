@@ -29,7 +29,8 @@
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
         hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa)
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa),
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianGoggles_co.paa)
         };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
@@ -48,7 +49,8 @@
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
         hiddenSelectionsTextures[]={
-            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa)
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa),
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianGoggles_co.paa)
         };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
