@@ -9,7 +9,8 @@ class CfgPatches {
         requiredAddons[] = {
 			"AUX_95th_40k_IG_main",
 			"FIG_Cadians",
-			"FIG_Additional_Regiments"
+			"FIG_Additional_Regiments",
+			"IC_CAD_Headgear"
 		};
         authors[] = {"Turner"};
         VERSION_CONFIG;
@@ -342,9 +343,125 @@ class CfgEditorSubcategories {
 	class AUX_95th_Legion_Characters_Category_Squad_Seven_Zero{displayName="7-0 Units";};
 };
 
-// class CfgWeapons {
-// 	class ItemInfo;
-// };
+class CfgWeapons {
+	class ItemInfo;
+
+	// Cigs
+	class immersion_cigs_cigar0_nv;
+	class AUX_95th_immersion_cigs_cigar0_nv: immersion_cigs_cigar0_nv {
+		displayName="[95th] Cigar";
+		visionMode[]={};
+	};
+
+	class murshun_cigs_cig0_nv;
+	class AUX_95th_murshun_cigs_cig0_nv: murshun_cigs_cig0_nv {
+		displayName="[95th] Cigarette";
+		visionMode[]={};
+	};
+
+
+	// Cameras
+	class FIG_CadianAuspecsGrey;
+	class AUX_95th_FIG_CadianAuspecsGrey: FIG_CadianAuspecsGrey {
+		displayName="[95th] Auspecs Camera";
+		visionMode[]={};
+	};
+
+	// Goggles
+	class FIG_CadianGogglesUp;
+	class AUX_95th_FIG_CadianGogglesUp: FIG_CadianGogglesUp {
+		displayName="[95th] Goggles (Up)";
+		visionMode[]={};
+	};
+
+	class FIG_CadianGogglesDown;
+	class AUX_95th_FIG_CadianGogglesDown: FIG_CadianGogglesDown {
+		displayName="[95th] Goggles (Down)";
+		visionMode[]={};
+	};
+
+	// Bionic Eyes
+	class ic_bionicEye;
+	class AUX_95th_ic_bionicEye: ic_bionicEye {
+		displayName="[95th] Bionic Eye (Variant 1)";
+		visionMode[]={};
+	};
+
+	// Bionic Eyes
+	class TIOW_Bionic_Eye_2;
+	class AUX_95th_TIOW_Bionic_Eye_2: TIOW_Bionic_Eye_2 {
+		displayName="[95th] Bionic Eye (Variant 2)";
+		visionMode[]={};
+	};
+
+	class TIOW_Bionic_Eye_2_Green;
+	class AUX_95th_TIOW_Bionic_Eye_2_Green: TIOW_Bionic_Eye_2_Green {
+		displayName="[95th] Bionic Eye (Variant 3)";
+		visionMode[]={};
+	};
+
+	class TIOW_Bionic_Eye;
+	class AUX_95th_TIOW_Bionic_Eye: TIOW_Bionic_Eye {
+		displayName="[95th] Bionic Eye (Variant 4)";
+		visionMode[]={};
+	};
+	
+	class TIOW_Bionic_Eye_Green;
+	class AUX_95th_TIOW_Bionic_Eye_Green: TIOW_Bionic_Eye_Green {
+		displayName="[95th] Bionic Eye (Variant 5)";
+		visionMode[]={};
+	};
+	
+	// Chestwear
+	class ic_Cadian_MedicaePouches_NVG;
+	class AUX_95th_ic_Cadian_MedicaePouches_NVG: ic_Cadian_MedicaePouches_NVG {
+		displayName = "[95th] Chestwear (Medical)";
+		visionMode[]={};
+	};
+
+	class ic_Cadian_Extra4_NVG;
+	class AUX_95th_ic_Cadian_Extra4_NVG: ic_Cadian_Extra4_NVG {
+		displayName = "[95th] Chestwear (Variant 1)";
+		visionMode[]={};
+	};
+
+	class ic_Cadian_Extra4V2_NVG;
+	class AUX_95th_ic_Cadian_Extra4V2_NVG: ic_Cadian_Extra4V2_NVG {
+		displayName = "[95th] Chestwear (Variant 2)";
+		visionMode[]={};
+	};
+
+	class ic_Cadian_Extra4V3_NVG;
+	class AUX_95th_ic_Cadian_Extra4V3_NVG: ic_Cadian_Extra4V3_NVG {
+		displayName = "[95th] Chestwear (Variant 3)";
+		visionMode[]={};
+	};
+
+	class ic_Cadian_Extra4V4_NVG;
+	class AUX_95th_ic_Cadian_Extra4V4_NVG: ic_Cadian_Extra4V4_NVG {
+		displayName = "[95th] Chestwear (Variant 4)";
+		visionMode[]={};
+	};
+
+	class ic_Cadian_Extra4V5_NVG;
+	class AUX_95th_ic_Cadian_Extra4V5_NVG: ic_Cadian_Extra4V5_NVG {
+		displayName = "[95th] Chestwear (Variant 5)";
+		visionMode[]={};
+	};
+
+	// Camo Nets
+	class ic_cad_CamoNetBody;
+	class AUX_95th_ic_cad_CamoNetBody: ic_cad_CamoNetBody {
+		displayName="[95th] Camo Net (Partial)";
+		visionMode[]={};
+	};
+
+	class ic_cad_CamoNetBodyV2;
+	class AUX_95th_ic_cad_CamoNetBodyV2: ic_cad_CamoNetBodyV2 {
+		displayName="[95th] Camo Net (Full)";
+		visionMode[]={};
+	};
+};
 
 class CfgGlasses {
 	// Headwraps
@@ -428,23 +545,23 @@ class CfgGlasses {
 		displayName = "[95th] Chestwear (Variant 1)";
 	};
 
-	class ic_Cadian_Extra4V5;
-	class AUX_95th_ic_Cadian_Extra4V5: ic_Cadian_Extra4V5 {
+	class ic_Cadian_Extra4V2;
+	class AUX_95th_ic_Cadian_Extra4V2: ic_Cadian_Extra4V2 {
 		displayName = "[95th] Chestwear (Variant 2)";
-	};
-
-	class ic_Cadian_Extra4V4;
-	class AUX_95th_ic_Cadian_Extra4V4: ic_Cadian_Extra4V4 {
-		displayName = "[95th] Chestwear (Variant 3)";
 	};
 
 	class ic_Cadian_Extra4V3;
 	class AUX_95th_ic_Cadian_Extra4V3: ic_Cadian_Extra4V3 {
+		displayName = "[95th] Chestwear (Variant 3)";
+	};
+
+	class ic_Cadian_Extra4V4;
+	class AUX_95th_ic_Cadian_Extra4V4: ic_Cadian_Extra4V4 {
 		displayName = "[95th] Chestwear (Variant 4)";
 	};
-	
-	class ic_Cadian_Extra4V2;
-	class AUX_95th_ic_Cadian_Extra4V2: ic_Cadian_Extra4V2 {
+
+	class ic_Cadian_Extra4V5;
+	class AUX_95th_ic_Cadian_Extra4V5: ic_Cadian_Extra4V5 {
 		displayName = "[95th] Chestwear (Variant 5)";
 	};
 

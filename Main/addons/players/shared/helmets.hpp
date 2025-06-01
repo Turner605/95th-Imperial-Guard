@@ -123,13 +123,16 @@
 #endif
 
 #if TANKER_CAP == 1
-    class Cad_Tnk_Helm;
-    class AUX_95th_40k_IG_Tanker_Cap_##PLAYER_NAME : Cad_Tnk_Helm {
+    class IC_tanker_cap;
+    class AUX_95th_40k_IG_Tanker_Cap_##PLAYER_NAME : IC_tanker_cap {
         scope = 2;
         scopeArsenal = 2;
         author="95th Aux Team";
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\cad_tankcap_co.paa)
+        };
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
