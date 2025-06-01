@@ -9,11 +9,9 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(Helmet);
@@ -30,11 +28,9 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(Helmet);
@@ -51,11 +47,9 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(Helmet);
@@ -74,11 +68,10 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa),
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianOGMask_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(Helmet);
@@ -95,11 +88,10 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_basic\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianHelmet_co.paa),
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianOGMask_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(Helmet);
@@ -118,11 +110,9 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_CadianCap_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(PatrolCap);
@@ -141,11 +131,6 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
-        // };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(TankerCap);
@@ -164,11 +149,9 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\IC_Stormtrooper_BERET_co.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(NCOCap);
@@ -187,11 +170,9 @@
         DSS_HUD_Lowlight_Enabled = 1;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
-        // hiddenSelections[]={"Camo1","Visor"};
-        // hiddenSelectionsTextures[]={
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa), 
-        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\p1_engineer\Helmet.paa)
-        // };
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\Officer_caps_667_CA.paa)
+        };
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(OfficerCap);
