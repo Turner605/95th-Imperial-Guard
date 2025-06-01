@@ -342,13 +342,122 @@ class CfgEditorSubcategories {
 	class AUX_95th_Legion_Characters_Category_Squad_Seven_Zero{displayName="7-0 Units";};
 };
 
-class CfgWeapons {
-	class ItemInfo;
-};
+// class CfgWeapons {
+// 	class ItemInfo;
+// };
 
 class CfgGlasses {
-	
-};
+	// Headwraps
+	class FIG_CadianHeadwrapV2;
+	class AUX_95th_FIG_CadianHeadwrapV2: FIG_CadianHeadwrapV2 {
+		displayName = "[95th] Headwrap (Partial)";
+	};
 
+	class FIG_CadianHeadwrap;
+	class AUX_95th_FIG_FIG_CadianHeadwrap: FIG_CadianHeadwrap {
+		displayName = "[95th] Headwrap (Full)";
+	};
+
+	class G_Blindfold_01_black_F;
+	class AUX_95th_FIG_G_Blindfold_01_black_F: G_Blindfold_01_black_F {
+		displayName = "[95th] Headwrap (Blindfold)";
+	};
+
+	class G_Bandanna_oli;
+	class AUX_95th_FIG_G_Bandanna_oli: G_Bandanna_oli {
+		displayName = "[95th] Headwrap (Bandana)";
+	};
+
+	// Goggles
+	class FIG_CadianGogglesDownFW;
+	class AUX_95th_FIG_CadianGogglesDownFW: FIG_CadianGogglesDownFW {
+		displayName = "[95th] Goggles (Down)";
+	};
+
+	class FIG_CadianGogglesUpFW;
+	class AUX_95th_FIG_CadianGogglesUpFW: FIG_CadianGogglesUpFW {
+		displayName = "[95th] Goggles (Up)";
+	};
+
+	// Cigs
+	class immersion_cigs_cigar0;
+	class AUX_95th_immersion_cigs_cigar0: immersion_cigs_cigar0 {
+		displayName = "[95th] Cigar";
+	};
+
+	class murshun_cigs_cig0;
+	class AUX_95th_murshun_cigs_cig0: murshun_cigs_cig0 {
+		displayName = "[95th] Cigarette";
+	};
+
+	// Gloves
+	class TIOW_F_Gloves_Black;
+	class AUX_95th_TIOW_F_Gloves_Black: TIOW_F_Gloves_Black {
+		displayName = "[95th] Gloves (Black)";
+	};
+
+	class TIOW_F_Gloves_Brown;
+	class AUX_95th_TIOW_F_Gloves_Brown: TIOW_F_Gloves_Brown {
+		displayName = "[95th] Gloves (Brown)";
+	};
+
+	// Headsets 
+	class ic_Headset;
+	class AUX_95th_ic_Headset: ic_Headset {
+		displayName = "[95th] Headset (Small)";
+	};
+
+	class TIOW_IG_Headset;
+	class AUX_95th_TIOW_IG_Headset: TIOW_IG_Headset {
+		displayName = "[95th] Headset (Large)";
+	};
+
+	// Chest Pouches
+	class FIG_CadianWebbing;
+	class AUX_95th_FIG_CadianWebbing: FIG_CadianWebbing {
+		displayName = "[95th] Chestwear (Webbing)";
+	};
+
+	class ic_Cadian_MedicPouches;
+	class AUX_95th_ic_Cadian_MedicPouches: ic_Cadian_MedicPouches {
+		displayName = "[95th] Chestwear (Medical)";
+	};
+
+	class ic_Cadian_Extra4;
+	class AUX_95th_ic_Cadian_Extra4: ic_Cadian_Extra4 {
+		displayName = "[95th] Chestwear (Variant 1)";
+	};
+
+	class ic_Cadian_Extra4V5;
+	class AUX_95th_ic_Cadian_Extra4V5: ic_Cadian_Extra4V5 {
+		displayName = "[95th] Chestwear (Variant 2)";
+	};
+
+	class ic_Cadian_Extra4V4;
+	class AUX_95th_ic_Cadian_Extra4V4: ic_Cadian_Extra4V4 {
+		displayName = "[95th] Chestwear (Variant 3)";
+	};
+
+	class ic_Cadian_Extra4V3;
+	class AUX_95th_ic_Cadian_Extra4V3: ic_Cadian_Extra4V3 {
+		displayName = "[95th] Chestwear (Variant 4)";
+	};
+	
+	class ic_Cadian_Extra4V2;
+	class AUX_95th_ic_Cadian_Extra4V2: ic_Cadian_Extra4V2 {
+		displayName = "[95th] Chestwear (Variant 5)";
+	};
+
+	// Misc
+	class FIG_OfficerGorget;
+	class AUX_95th_FIG_OfficerGorget: FIG_OfficerGorget {
+		displayName = "[95th] Officer (Gorget)";
+	};
+
+	class IC_cad_rebreather_green;
+	class AUX_95th_IC_cad_rebreather_green: IC_cad_rebreather_green {
+		displayName = "[95th] Mask (No Visor)";
+	};
+};
 
 #include "CfgEventHandlers.hpp"
