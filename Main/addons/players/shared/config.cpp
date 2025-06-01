@@ -1,13 +1,13 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class AUX_95th_players_shared {
+    class AUX_95th_40k_IG_Main_players_shared {
         name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-			"AUX_95th_40k_IG_main",
+			"AUX_95th_40k_IG_Main_main",
 			"FIG_Cadians",
 			"FIG_Additional_Regiments",
 			"IC_CAD_Headgear"

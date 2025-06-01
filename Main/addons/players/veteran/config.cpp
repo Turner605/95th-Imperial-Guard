@@ -15,7 +15,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"AUX_95th_40k_IG_main", "AUX_95th_40k_IG_players_shared"};
+        requiredAddons[] = {"AUX_95th_40k_IG_Main_players_shared"};
         authors[] = {"Turner"};
         VERSION_CONFIG;
     };

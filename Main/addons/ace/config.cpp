@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "AUX_95th_40k_IG_main",
+            "AUX_95th_40k_IG_Main_main",
             "ace_main",
             "cba_settings"
         };
