@@ -12,7 +12,9 @@ class CfgPatches {
             "A3_Data_F",
 			"A3_UI_F",
 			"A3_Ui_F_Oldman",
-			"A3_UI_F_AOW"
+			"A3_UI_F_AOW",
+			"toh_loadscreen",
+			"tohmenu"
         };
         authors[] = {"Turner"};
         VERSION_CONFIG;
@@ -125,8 +127,22 @@ class RscDisplayMain: RscStandardDisplay {
 	};
 
 	class controls {
-		// 95th Logo
-        class logo:RscActivepicture {text="\z\AUX_95th_40k_IG_Main\addons\menu\data\MainScreenBanner.paa"; url=""; tooltip="95th Legion"; onButtonClick=""; onload="";};
+		// Tales of heresy override
+		delete ConntectToMain;
+		delete ConnectToTest;
+		delete ConnectToDiscord;
+
+		// 95th Logo - Broken at the moment
+        class logo:RscActivepicture {
+			text="\z\AUX_95th_40k_IG_Main\addons\menu\data\MainScreenBanner.paa";
+			url="";
+			tooltip="95th Legion";
+			onButtonClick="";
+			onload="";
+			style = 48;
+			color[] = {1,1,1,0.5};
+			colorActive[] = {1,1,1,1};
+		};
         class logoApex:logo {show=0; onload=""; text="";};
         class infomods:RscControlsGroupNoHScrollbars {show=0;};
         class infoDLCsOwned:infomods {show=0;};

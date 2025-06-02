@@ -39,6 +39,37 @@ class CfgVehicles {
 			};
 		};
 	};
+
+    class land_dmDefenseLine_1;
+    class AUX_95th_land_dmDefenseLine_1: land_dmDefenseLine_1{
+        displayName = "Wall (Holes)";
+    };
+
+    class land_dmDefenseLine_4;
+    class AUX_95th_land_dmDefenseLine_4: land_dmDefenseLine_4{
+        displayName = "Wall (Solid)";
+    };
+
+    class ListeningPost;
+    class AUX_95th_ListeningPost: ListeningPost{
+        displayName = "Rally Point";
+    };
+
+    class Sandbag_Wall_Short1;
+    class AUX_95th_Sandbag_Wall_Short1: Sandbag_Wall_Short1{
+        displayName = "Sandbag (Short)";
+    };
+
+    class Sandbag_Wall_Roof_Short2;
+    class AUX_95th_Sandbag_Wall_Roof_Short2: Sandbag_Wall_Roof_Short2{
+        displayName = "Walkway";
+    };
+
+    class Sandbag_bunker2;
+    class AUX_95th_Sandbag_bunker2: Sandbag_bunker2{
+        displayName = "Sandbag (Bunker)";
+    };
+
 };
 
 class CfgFunctions {

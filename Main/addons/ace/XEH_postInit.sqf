@@ -10,7 +10,7 @@ player addEventHandler["Respawn", {
         private _rallyPointRespawn = (missionNamespace getVariable "AUX_95th_Rally_Point_Respawn");
         private _rallyPointTickets = (missionNamespace getVariable "AUX_95th_Rally_Point_Tickets");
 
-        if((_unit distance _rallyPointObject) < 10) then {
+        if((_unit distance _rallyPointObject) < 20) then {
             private _newTickets = (_rallyPointTickets - 1);
 
             if(_newTickets == 0) then {
@@ -37,7 +37,7 @@ player addEventHandler["Respawn", {
     params ["_unit", "_side", "_objectPlaced"];
 
     if (isServer) then {
-        if((typeOf _objectPlaced) == "667th_flag") then {
+        if((typeOf _objectPlaced) == "AUX_95th_ListeningPost") then {
             private _oldRallyPoint = (missionNamespace getVariable "AUX_95th_Rally_Point_Object");
             private __oldRallyPointRespawn = (missionNamespace getVariable "AUX_95th_Rally_Point_Respawn");
 
