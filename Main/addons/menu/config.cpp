@@ -16,6 +16,7 @@ class CfgPatches {
 			"toh_loadscreen",
 			"tohmenu"
         };
+        skipWhenMissingDependencies = 1;
         authors[] = {"Turner"};
         VERSION_CONFIG;
     };
