@@ -76,7 +76,7 @@ player addEventHandler ["AnimChanged", {
                 if("salute" in (animationState _unit)) then {
                     systemChat "No Saluting";
 
-                    _unit remoteExec ["Flame_Death_container", _unit];
+                    _unit setDamage 1;
                 };
             };
         };
