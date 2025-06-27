@@ -184,12 +184,15 @@
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
         // };
-        tf_hasLRradio=0;
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "RTO";
             Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=16000;
+        tf_subtype="digital_lr";
     };
 #endif

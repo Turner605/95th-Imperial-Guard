@@ -12,9 +12,9 @@ class CfgPatches {
             "A3_Data_F",
 			"A3_UI_F",
 			"A3_Ui_F_Oldman",
-			"A3_UI_F_AOW",
-			"toh_loadscreen",
-			"tohmenu"
+			"A3_UI_F_AOW"
+			// "toh_loadscreen",
+			// "tohmenu"
         };
         skipWhenMissingDependencies = 1;
         authors[] = {"Turner"};
