@@ -1,14 +1,14 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael"];
 
-AUX_95th_Arsenal_Whitelisted_Throwables = [];
+AUX_95th_Arsenal_Whitelisted_Throwables = [""];
 
-AUX_95th_Arsenal_Whitelisted_Explosives = [];
+AUX_95th_Arsenal_Whitelisted_Explosives = [""];
 
-AUX_95th_Arsenal_Whitelisted_Magazines = [];
+AUX_95th_Arsenal_Whitelisted_Magazines = [""];
 
-AUX_95th_Arsenal_Whitelisted_Attachments = [];
+AUX_95th_Arsenal_Whitelisted_Attachments = [""];
 
-AUX_95th_Arsenal_Whitelisted_Gear = [];
+AUX_95th_Arsenal_Whitelisted_Gear = [""];
 
 AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_TXA","ACE_tourniquet","ACE_surgicalKit","kat_stethoscope","ACE_splint","kat_scalpel","kat_retractor","kat_Pulseoximeter","ACE_plasmaIV",
@@ -43,5 +43,5 @@ AUX_95th_Arsenal_Whitelisted_All = (
     AUX_95th_Arsenal_Whitelisted_Medical + 
     AUX_95th_Arsenal_Whitelisted_Gear + 
     AUX_95th_Arsenal_Whitelisted_Equipment +
-    AUX_95th_Arsenal_Whitelisted_Customs
+    AUX_95th_40k_IG_Arsenal_Whitelisted_Names
 );

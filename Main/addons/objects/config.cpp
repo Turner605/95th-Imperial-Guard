@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {"AUX_95th_Crate_Arsenal_Full", "AUX_95th_Crate_Arsenal_Restricted"};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"AUX_95th_40k_IG_Main_main", "dm_buildings"};
+        requiredAddons[] = {"AUX_95th_40k_IG_Main_main", "ace_arsenal", "dm_buildings"};
         authors[] = {"Turner"};
         VERSION_CONFIG;
     };
