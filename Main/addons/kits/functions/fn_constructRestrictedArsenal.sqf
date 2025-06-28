@@ -43,5 +43,5 @@ AUX_95th_Arsenal_Whitelisted_All = (
     AUX_95th_Arsenal_Whitelisted_Medical + 
     AUX_95th_Arsenal_Whitelisted_Gear + 
     AUX_95th_Arsenal_Whitelisted_Equipment +
-    AUX_95th_40k_IG_Arsenal_Whitelisted_Names
+    AUX_95th_Arsenal_Whitelisted_Customs
 );

@@ -61,7 +61,7 @@ player addEventHandler["Respawn", {
 }] call CBA_fnc_addEventHandler;
 
 if(AUX_95th_40k_IG_Fortify_Forceload_Enabled) then {
-    [] call AUX_95th_40k_IG_fnc_setupFortify;
+    [] call AUX_95TH_40K_IG_MAIN_fnc_setupFortify;
 };
 
 // ATSS (Anti Turner Salute System)

@@ -13,6 +13,7 @@
 #define TANKER_CAP 0
 #define NCO_CAP 1
 #define OFFICER_CAP 0
+#define BOONIE_HAT 0
 
 // UNIFORM OPTIONS 0 (False), 1 (True)
 #define UNIFORM_BASIC 0
