@@ -4,7 +4,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "AUX_95th_Crate_Arsenal_Full", "AUX_95th_Crate_Arsenal_Restricted",
+            "AUX_95th_Crate_Arsenal_Full", "AUX_95th_Crate_Arsenal_Restricted", "AUX_95th_Crate_Arsenal_Inverted",
             "AUX_95th_Terminal_Medical","AUX_95th_Terminal_Permissions"
         };
         weapons[] = {};
@@ -69,6 +69,22 @@ class CfgVehicles {
         class EventHandlers {
             class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
             init = "[_this select 0, AUX_95th_Arsenal_Whitelisted_All] call ace_arsenal_fnc_initBox;"; 
+        };
+    };
+
+    class AUX_95th_Crate_Arsenal_Inverted: dm_crate1_1 {
+        displayName="Arsenal (Inverted)";
+        editorCategory="AUX_95th_Objects_Imperial";
+        editorSubcategory="AUX_95th_Objects_Crates";
+        maximumLoad=2000;
+        scope=2;
+        ace_dragging_canDrag = 0; ace_dragging_canCarry = 0;
+        ace_cargo_size = 0; ace_cargo_canLoad = 0; ace_cargo_noRename = 1;
+        ace_cargo_blockUnloadCarry = 1;
+
+        class EventHandlers {
+            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+            init = "[_this select 0, true] call ace_arsenal_fnc_initBox; [(_this select 0), AUX_95th_Arsenal_Whitelisted_All] call ace_arsenal_fnc_removeVirtualItems;"; 
         };
     };
 
