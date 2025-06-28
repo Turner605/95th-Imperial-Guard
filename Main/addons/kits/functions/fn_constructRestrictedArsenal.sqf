@@ -1,4 +1,4 @@
-AUX_95th_Arsenal_Whitelisted_Weapons = [];
+AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael"];
 
 AUX_95th_Arsenal_Whitelisted_Throwables = [];
 
