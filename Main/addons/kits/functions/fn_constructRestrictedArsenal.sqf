@@ -1,6 +1,6 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael", "ML700_PlasmaRifle_F", "ML700_Grenade_Launcher", "VNG_IG_GL", "ic_cad_laspistol",
  "TIOW_MeltaGun_01", "ICP_LMG_01_imp", "dm_cad_autogunPara", "TIOW_Shotgun", "TIOW_LongLas_836", "TIOW_IG_Flamer", "FIG_Knife", "FIG_KnifeRotated",
-  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_AT_grey", "IC_Launcher_AA_grey"];
+  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_AT_grey", "IC_Launcher_AA_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2"];
 
 AUX_95th_Arsenal_Whitelisted_Throwables = ["ML700_frag_grenade_magazine", "TIOW_ig_krak_grenade_mag", "TIOW_ig_melta_bomb_mag", "TIOW_ig_smoke_grenade_mag"];
 
@@ -8,9 +8,9 @@ AUX_95th_Arsenal_Whitelisted_Explosives = ["TIOW_melta_bomb_placeable_Mag", "IC_
 
 AUX_95th_Arsenal_Whitelisted_Magazines = ["ML700_PlasmaRifle_Battery", "ML700_PlasmaRifle_Battery_Overcharged", "FIG_LasGun_Standart", "ML700_6rnd_FlareCIR",
  "ML700_6rnd_FlareGreen", "ML700_6rnd_FlareRed", "ML700_6rnd_FlareWhite", "ML700_6rnd_FlareYellow", "ML700_6rnd_HE", "ML700_6rnd_SmokeBlue", "ML700_6rnd_SmokeGreen",
-  "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "ic_laspistol_powerpack", "TIOW_Meltagun_Mag", "ic_100rnd_825_Tracer_rifleMag",
-  "ic_30rnd_825_Tracer_rifleMag", "ic_30rnd_825_Tracer_rifleMag", "TIOW_Shotgun_pellets_mag", "TIOW_LongLas_Mag", "IC_Flak_Missile_mag",
-   "IC_frag_Missile_mag", "IC_Krak_rocket_mag", "IC_Frag_rocket_mag", "TIOW_Krieg_Flamer_mag", "murshun_cigs_lighter", "murshun_cigs_cigpack", "murshun_cigs_matches"];
+  "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "ic_laspistol_powerpack", "TIOW_Meltagun_Mag", "ic_100rnd_825_HP_Tracer_rifleMag",
+  "ic_30rnd_825_Tracer_rifleMag", "TIOW_Shotgun_pellets_mag", "TIOW_LongLas_Mag", "IC_Flak_Missile_mag",
+   "IC_frag_Missile_mag", "IC_Krak_rocket_mag", "IC_Frag_rocket_mag", "TIOW_Krieg_Flamer_mag", "murshun_cigs_lighter", "murshun_cigs_cigpack", "murshun_cigs_matches", "TIOW_IGBoltPistol_Mag"];
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet"];
 
