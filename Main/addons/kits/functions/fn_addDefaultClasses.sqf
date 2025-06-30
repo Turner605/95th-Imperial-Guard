@@ -2,22 +2,21 @@
 
 // 01 - Rifleman
 // 01 - Marksman
-// 02 - Riot
-// 03 - Heavy
+// 02 - Machine Gunner
+// 03 - Weapon Crew
 // 04 - Engineer
-// 05 - Medic
+// 05 - Medicae
 // 06 - AT
-// 07 - Crewman
-// 08 - Pilot
-// 09 - NCO
-// 10 - Flame
-// 11 - Jet
-// 12 - Grenadier
-// 13 - Stealth
-// 14 - Tech
-// 15 - Support
-// 16 - Airborne
-// 17 - Drone Operator
+// 07 - Advanced AT
+// 08 - AA
+// 09 - Grenadier
+// 10 - Flamer
+// 11 - Melta Gunner
+// 12 - Plasma Gunner
+// 13 - Vox-Operator
+// 14 - NCO
+// 15 - Crewman
+
 
 if (!isServer) exitWith {};
 
