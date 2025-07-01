@@ -36,6 +36,8 @@ AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_oxygenTank_150", "kat_oxygenTank_300", "kat_ultrasound", "kat_epinephrineIV", "kat_nasal", "kat_Pervitin", "kat_phenylephrineAuto", "kat_reboa", "kat_coag_sense" 
 ];
 
+AUX_95th_Arsenal_Whitelisted_Backpacks = [""];
+
 AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ACE_wirecutter","ToolKit","ACE_Tripod","ACE_SpraypaintRed","ACE_SpraypaintGreen","ACE_SpraypaintBlue","ACE_SpraypaintBlack","ACE_SpottingScope",
 	"ACE_CableTie","ACE_Chemlight_Shield","ACE_DeadManSwitch","ACE_DefusalKit","ACE_DAGR","ACE_EntrenchingTool","ACE_Fortify","ACE_Flashlight_MX991",
@@ -56,5 +58,6 @@ AUX_95th_Arsenal_Whitelisted_All = (
     AUX_95th_Arsenal_Whitelisted_Medical + 
     AUX_95th_Arsenal_Whitelisted_Gear + 
     AUX_95th_Arsenal_Whitelisted_Equipment +
-    AUX_95th_Arsenal_Whitelisted_Customs
+    AUX_95th_Arsenal_Whitelisted_Customs +
+    AUX_95th_Arsenal_Whitelisted_Backpacks
 );
