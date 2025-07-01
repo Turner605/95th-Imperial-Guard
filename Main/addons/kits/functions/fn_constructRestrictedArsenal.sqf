@@ -36,7 +36,9 @@ AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_oxygenTank_150", "kat_oxygenTank_300", "kat_ultrasound", "kat_epinephrineIV", "kat_nasal", "kat_Pervitin", "kat_phenylephrineAuto", "kat_reboa", "kat_coag_sense" 
 ];
 
-AUX_95th_Arsenal_Whitelisted_Backpacks = [""];
+AUX_95th_Arsenal_Whitelisted_Backpacks = ["TIOW_IG_MissileLauncher_AA_Bag1_Blu", "TIOW_IG_MissileLauncher_AA_Bag2_Blu", "TIOW_IG_MissileLauncher_AT_Bag1_Blu",
+    "TIOW_IG_MissileLauncher_AT_Bag2_Blu", "TIOW_IG_Autocannon_Bag1_Blu", "TIOW_IG_Autocannon_Bag2_OP", "TIOW_IG_HeavyBolter_Bag1_Blu", "TIOW_IG_HeavyBolter_Bag2_Blu", 
+    "TIOW_IG_Lascannon_Bag1_Blu", "TIOW_IG_Lascannon_Bag2_Blu", "Dos_PP_UAV_1"];
 
 AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ACE_wirecutter","ToolKit","ACE_Tripod","ACE_SpraypaintRed","ACE_SpraypaintGreen","ACE_SpraypaintBlue","ACE_SpraypaintBlack","ACE_SpottingScope",
