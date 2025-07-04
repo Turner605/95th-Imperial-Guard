@@ -1,6 +1,7 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael", "ML700_PlasmaRifle_F", "ML700_Grenade_Launcher", "VNG_IG_GL", "ic_cad_laspistol",
  "TIOW_MeltaGun_01", "ICP_LMG_01_imp", "dm_cad_autogunPara", "TIOW_Shotgun", "TIOW_LongLas_836", "TIOW_IG_Flamer", "FIG_Knife", "FIG_KnifeRotated",
-  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_AT_grey", "IC_Launcher_AA_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2"];
+  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_AT_grey", "IC_Launcher_AA_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2",
+  "ML700_PlasmaPistol_F"];
 
 AUX_95th_Arsenal_Whitelisted_Throwables = ["ML700_frag_grenade_magazine", "TIOW_ig_krak_grenade_mag", "TIOW_ig_melta_bomb_mag", "TIOW_ig_smoke_grenade_mag"];
 
@@ -11,7 +12,7 @@ AUX_95th_Arsenal_Whitelisted_Magazines = ["ML700_PlasmaRifle_Battery", "ML700_Pl
   "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "ic_laspistol_powerpack", "TIOW_Meltagun_Mag", "ic_100rnd_825_HP_Tracer_rifleMag",
   "ic_30rnd_825_Tracer_rifleMag", "TIOW_Shotgun_pellets_mag", "TIOW_LongLas_Mag", "IC_Flak_Missile_mag",
    "IC_frag_Missile_mag", "IC_Krak_rocket_mag", "IC_Frag_rocket_mag", "TIOW_Krieg_Flamer_mag", "murshun_cigs_lighter", "murshun_cigs_cigpack", "murshun_cigs_matches",
-    "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag"];
+    "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag", "ML700_PlasmaPistol_Battery_Overcharged", "ML700_PlasmaPistol_Battery"];
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet"];
 
