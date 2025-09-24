@@ -215,7 +215,7 @@ private _roleArray = [
 			[_x select 6, _x select 7], 
 			[_x select 8, _x select 9], 
 			_x select 10, 
-			"", ["","","","",["Laserbatteries",1],[],""], ["ItemMap","ItemMicroDAGR","HOV_SW_Vox", (_x select 11) ,"ItemWatch",""]
+			"", ["","","","",["Laserbatteries",1],[],""], ["ItemMap","ItemMicroDAGR","HOV_SW_Vox",(_x select 11),"ItemWatch",""]
 		], createHashMapFromArray []
 	],
 	true

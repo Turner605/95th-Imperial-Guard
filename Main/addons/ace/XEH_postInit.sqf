@@ -76,7 +76,8 @@ player addEventHandler ["AnimChanged", {
                 if("salute" in (animationState _unit)) then {
                     systemChat "No Saluting";
 
-                    _unit setDamage 1;
+                    _unit remoteExecCall ["WBK_Goliath_SpecialAttackGroundShard", _unit];
+                    // _unit setDamage 1;
                 };
             };
         };
