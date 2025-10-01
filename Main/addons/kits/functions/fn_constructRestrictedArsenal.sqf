@@ -9,8 +9,8 @@ AUX_95th_Arsenal_Whitelisted_Explosives = ["TIOW_melta_bomb_placeable_Mag", "IC_
 
 AUX_95th_Arsenal_Whitelisted_Magazines = ["ML700_PlasmaRifle_Battery", "ML700_PlasmaRifle_Battery_Overcharged", "FIG_LasGun_Standart", "ML700_6rnd_FlareCIR",
  "ML700_6rnd_FlareGreen", "ML700_6rnd_FlareRed", "ML700_6rnd_FlareWhite", "ML700_6rnd_FlareYellow", "ML700_6rnd_HE", "ML700_6rnd_SmokeBlue", "ML700_6rnd_SmokeGreen",
-  "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "FIG_LasPistol_Standart", "TIOW_Meltagun_Mag", "ic_100rnd_825_HP_Tracer_rifleMag",
-  "ic_30rnd_825_Tracer_rifleMag", "FIG_6Rnd_ShotgunMag", "FIG_6Rnd_ShotgunMagSlug", "TIOW_LongLas_Mag", "IC_Flak_Missile_mag",
+  "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "FIG_LasPistol_Standart", "TIOW_Meltagun_Mag", "toh_hs_100rnd_mag",
+  "toh_hs_30rnd_mag", "FIG_8Rnd_ShotgunMag", "FIG_8Rnd_ShotgunMagSlug", "TIOW_LongLas_Mag", "IC_Flak_Missile_mag",
    "IC_frag_Missile_mag", "IC_Krak_rocket_mag", "IC_Frag_rocket_mag", "TIOW_Krieg_Flamer_mag", "murshun_cigs_lighter", "murshun_cigs_cigpack", "murshun_cigs_matches",
     "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag", "ML700_PlasmaPistol_Battery_Overcharged", "ML700_PlasmaPistol_Battery"];
 
