@@ -1,18 +1,18 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael", "ML700_PlasmaRifle_F", "ML700_Grenade_Launcher", "VNG_IG_GL", "FIG_Laspistol",
  "TIOW_MeltaGun_01", "ICP_LMG_01_imp", "dm_cad_autogunPara", "FIG_CombatShotgun", "TIOW_LongLas_836", "TIOW_IG_Flamer", "FIG_Knife", "FIG_KnifeRotated",
-  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_AT_grey", "IC_Launcher_AA_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2",
-  "ML700_PlasmaPistol_F"];
+  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_Uni_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2",
+  "ML700_PlasmaPistol_F", "FIG_PowerSword"];
 
-AUX_95th_Arsenal_Whitelisted_Throwables = ["ML700_frag_grenade_magazine", "TIOW_ig_krak_grenade_mag", "TIOW_ig_smoke_grenade_mag"];
+AUX_95th_Arsenal_Whitelisted_Throwables = ["ToH_IG_Frag_Grenade", "ToH_IG_Krak_Grenade", "ToH_IG_Smoke_Grenade", "ToH_IG_Melta_Bomb"];
 
 AUX_95th_Arsenal_Whitelisted_Explosives = ["TIOW_melta_bomb_placeable_Mag", "IC_CAD_CHARGE_placeable_mag"];
 
 AUX_95th_Arsenal_Whitelisted_Magazines = ["ML700_PlasmaRifle_Battery", "ML700_PlasmaRifle_Battery_Overcharged", "FIG_LasGun_Standart", "ML700_6rnd_FlareCIR",
  "ML700_6rnd_FlareGreen", "ML700_6rnd_FlareRed", "ML700_6rnd_FlareWhite", "ML700_6rnd_FlareYellow", "ML700_6rnd_HE", "ML700_6rnd_SmokeBlue", "ML700_6rnd_SmokeGreen",
   "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "FIG_LasPistol_Standart", "TIOW_Meltagun_Mag", "toh_hs_100rnd_mag",
-  "toh_hs_30rnd_mag", "FIG_8Rnd_ShotgunMag", "FIG_8Rnd_ShotgunMagSlug", "TIOW_LongLas_Mag", "IC_Flak_Missile_mag",
+  "toh_hs_30rnd_mag", "FIG_8Rnd_ShotgunMag", "FIG_8Rnd_ShotgunMagSlug", "TIOW_LongLas_Mag", "TOH_Flak_Missile_mag",
    "IC_frag_Missile_mag", "IC_Krak_rocket_mag", "IC_Frag_rocket_mag", "TIOW_Krieg_Flamer_mag", "murshun_cigs_lighter", "murshun_cigs_cigpack", "murshun_cigs_matches",
-    "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag", "ML700_PlasmaPistol_Battery_Overcharged", "ML700_PlasmaPistol_Battery"];
+    "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag", "ML700_PlasmaPistol_Battery_Overcharged", "ML700_PlasmaPistol_Battery", "ic_30rnd_825_rifleMag"];
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet"];
 
@@ -38,9 +38,8 @@ AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_oxygenTank_150", "kat_oxygenTank_300", "kat_ultrasound", "kat_epinephrineIV", "kat_nasal", "kat_Pervitin", "kat_phenylephrineAuto", "kat_reboa", "kat_coag_sense" 
 ];
 
-AUX_95th_Arsenal_Whitelisted_Backpacks = ["TIOW_IG_MissileLauncher_AA_Bag1_Blu", "TIOW_IG_MissileLauncher_AA_Bag2_Blu", "TIOW_IG_MissileLauncher_AT_Bag1_Blu",
-    "TIOW_IG_MissileLauncher_AT_Bag2_Blu", "TIOW_IG_Autocannon_Bag1_Blu", "TIOW_IG_Autocannon_Bag2_OP", "TIOW_IG_HeavyBolter_Bag1_Blu", "TIOW_IG_HeavyBolter_Bag2_Blu", 
-    "TIOW_IG_Lascannon_Bag1_Blu", "TIOW_IG_Lascannon_Bag2_Blu", "Dos_PP_UAV_1"];
+AUX_95th_Arsenal_Whitelisted_Backpacks = ["Dos_PP_UAV_1", "CadianAABackpack", "CadianATBackpack", "CadianMortarBackpack", "CadianAutocannonBackpack", "CadianBolterBackpack",
+    "CadianLascannonBackpack", "CadianMultilasBackpack"];
 
 AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ACE_wirecutter","ToolKit","ACE_Tripod","ACE_SpraypaintRed","ACE_SpraypaintGreen","ACE_SpraypaintBlue","ACE_SpraypaintBlack","ACE_SpottingScope",
@@ -50,7 +49,7 @@ AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ace_marker_flags_white","ace_marker_flags_yellow","ACE_microDAGR","MineDetector","ACE_HuntIR_monitor","ACE_RangeTable_82mm",
 	"rw_canistra","ACE_RangeCard",
     "WBK_HeadLampItem_Double", "WBK_HeadLampItem_Narrow", "WBK_HeadLampItem_Long", "WBK_HeadLampItem", "WBK_ShoulderLampItem_Regular", "WBK_ShoulderLampItem_Strong",
-    "WBK_ShoulderLampItem_Weak", "ML700_S_Plasma_Coolant", "WBK_NarthBlood"
+    "WBK_ShoulderLampItem_Weak", "ML700_S_Plasma_Coolant", "WBK_NarthBlood", "TFAR_anprc152"
 ];
 
 AUX_95th_Arsenal_Whitelisted_All = (
