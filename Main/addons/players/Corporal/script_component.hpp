@@ -1,7 +1,7 @@
-#define COMPONENT players_sergeant
-#define COMPONENT_BEAUTIFIED Players_Sergeant
-#define PLAYER_NAME sergeant
-#define PLAYER_NAME_BEAUTIFIED Sergeant
+#define COMPONENT corporal
+#define COMPONENT_BEAUTIFIED Corporal
+#define PLAYER_NAME corporal
+#define PLAYER_NAME_BEAUTIFIED Corporal
 
 //OPTIONS: Zeus, Fallen, Unassigned, Basic, One_Zero, One_One, One_Two, One_Three, One_Four, Five_Zero, Six_Zero, Seven_Zero
 #define SQUAD_KEY Basic

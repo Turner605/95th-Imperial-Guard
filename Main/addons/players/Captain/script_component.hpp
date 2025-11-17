@@ -1,7 +1,7 @@
-#define COMPONENT players_sergeant
-#define COMPONENT_BEAUTIFIED Players_Sergeant
-#define PLAYER_NAME sergeant
-#define PLAYER_NAME_BEAUTIFIED Sergeant
+#define COMPONENT captain
+#define COMPONENT_BEAUTIFIED Captain
+#define PLAYER_NAME captain
+#define PLAYER_NAME_BEAUTIFIED Captain
 
 //OPTIONS: Zeus, Fallen, Unassigned, Basic, One_Zero, One_One, One_Two, One_Three, One_Four, Five_Zero, Six_Zero, Seven_Zero
 #define SQUAD_KEY Basic
@@ -11,8 +11,8 @@
 #define HELMET_MASK 1
 #define PATROL_CAP 0
 #define TANKER_CAP 0
-#define NCO_CAP 1
-#define OFFICER_CAP 0
+#define NCO_CAP 0
+#define OFFICER_CAP 1
 #define BOONIE_HAT 0
 
 // UNIFORM OPTIONS 0 (False), 1 (True)
