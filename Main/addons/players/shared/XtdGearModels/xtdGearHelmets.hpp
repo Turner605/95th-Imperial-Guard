@@ -15,11 +15,12 @@ class Type {
 
 class Variant {
 	labels = "Phase";
-	values[] = {"Standard","Mask","Headset","MaskVisor","GU","GD"};
+	values[] = {"Standard","Mask","Headset","MaskVisor","GU","GD","VOX"};
 	class Standard { label = "S"; description = "Standard"; };
 	class Mask { label = "M"; description = "Mask Only"; };
 	class Headset { label = "H"; description = "Headset"; };
 	class MaskVisor { label = "MV"; description = "Mask+Visor"; };
 	class GU { label = "GU"; description = "Googles Up"; };
 	class GD { label = "GD"; description = "Googles Down"; };
+	class VOX { label = "VOX"; description = "Vox Helmet"; };
 };

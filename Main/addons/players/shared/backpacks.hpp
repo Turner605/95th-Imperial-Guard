@@ -179,7 +179,7 @@
     class AUX_95th_Backpack_RTO_##PLAYER_NAME : TIOW_IG_Vox_Caster {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	    maximumLoad=100;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
