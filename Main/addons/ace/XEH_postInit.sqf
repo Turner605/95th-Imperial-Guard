@@ -71,8 +71,9 @@ player addEventHandler ["AnimChanged", {
     if (!(isNull cursorObject)) then {
         if(isPlayer cursorObject) then {
             private _playerId = getPlayerUID cursorObject;
+            private _playerIds = ["76561198065789267", "76561198104865945"];
 
-            if(_playerId == "76561198065789267") then {
+            if(_playerId in _playerIds) then {
                 if("salute" in (animationState _unit)) then {
                     systemChat "No Saluting";
 
