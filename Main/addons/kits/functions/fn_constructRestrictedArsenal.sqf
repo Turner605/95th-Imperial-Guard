@@ -1,7 +1,7 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael", "ML700_PlasmaRifle_F", "ML700_Grenade_Launcher", "VNG_IG_GL", "FIG_Laspistol",
  "TIOW_MeltaGun_01", "ICP_LMG_01_imp", "dm_cad_autogunPara", "FIG_CombatShotgun", "TIOW_LongLas_836", "TIOW_IG_Flamer", "FIG_Knife", "FIG_KnifeRotated",
   "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_Uni_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2",
-  "ML700_PlasmaPistol_F", "FIG_PowerSword"];
+  "ML700_PlasmaPistol_F", "FIG_PowerSword", "Cadian_95th_Banner_Weapon"];
 
 AUX_95th_Arsenal_Whitelisted_Throwables = ["ToH_IG_Frag_Grenade", "ToH_IG_Krak_Grenade", "ToH_IG_Smoke_Grenade", "ToH_IG_Melta_Bomb"];
 
