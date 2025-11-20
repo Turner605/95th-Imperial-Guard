@@ -1,5 +1,5 @@
-#define COMPONENT ace
-#define COMPONENT_BEAUTIFIED Ace
+#define COMPONENT weapons
+#define COMPONENT_BEAUTIFIED Weapons
 #include "\z\AUX_95th_40k_IG_Main\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

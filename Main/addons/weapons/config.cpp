@@ -63,4 +63,13 @@ class CfgVehicles {
 	};
 };
 
+class CfgFunctions {
+    class AUX_95th_40k_IG_Main {
+        class Weapons {
+			file = "\z\AUX_95th_40k_IG_Main\addons\weapons\functions";
+            class enhanceFlare {};
+        };
+    };
+};
+
 #include "CfgEventHandlers.hpp"
