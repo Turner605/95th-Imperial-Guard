@@ -61,6 +61,14 @@ class CfgVehicles {
 			};
 		};
 	};
+
+	// This doesnt work 
+    class StaticWeapon;
+    class StaticMortar: StaticWeapon {
+		class EventHandlers {
+			init = "(_this select 0) addEventHandler ['Fired', {_flare = _this select 6;[[_flare], {params ['_flare'];[_flare] spawn AUX_95TH_40K_IG_MAIN_fnc_enhanceFlare;}] remoteExec ['call', 0, true];}];";
+		};
+	};
 };
 
 class CfgFunctions {

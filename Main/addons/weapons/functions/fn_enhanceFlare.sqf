@@ -1,56 +1,47 @@
-private ["_al_shooter","_al_color_flare","_al_flare_light","_flare_brig","_inter_flare","_int_mic","_al_flare","_type_flares"];
+params ["_flareFired"];
 
 if (!hasInterface) exitWith {};
 
-_al_flare = _this select 0;
+if(!(_flareFired isKindOf "FlareCore")) exitWith {};
 
-_type_flares = ["F_40mm_White","F_40mm_Red","F_40mm_Yellow","F_40mm_Green","Flare_82mm_AMOS_White"];
+private _flareColour = [0,0,0];
+private _flareFiredIsMortar = false;
+private _flareIntensityModifier = 1;
+private _flareRangeModifier = 1;
 
-_mortar_flare_on = false;
-	
-if ((typeOf _al_flare) in _type_flares) then {
-		
-	switch (typeOf _al_flare) do {
-		case "F_40mm_White": {_al_color_flare = [0.7,0.7,0.8]};
-		case "F_40mm_Red": {_al_color_flare = [0.7,0.15,0.1] };
-		case "F_40mm_Yellow": {_al_color_flare = [0.7,0.7,0] };
-		case "F_40mm_Green": {_al_color_flare = [0.2,0.7,0.2] };
-		case "Flare_82mm_AMOS_White": {_al_color_flare = [1,1,1]; _mortar_flare_on = true};
-	};
+if(_flareFired isKindOf "F_40mm_White") then {_flareColour = [0.7,0.7,0.8];};
+if(_flareFired isKindOf "F_40mm_Red") then {_flareColour = [0.7,0.15,0.1];};
+if(_flareFired isKindOf "F_40mm_Yellow") then {_flareColour = [0.7,0.7,0];};
+if(_flareFired isKindOf "F_40mm_Green") then {_flareColour = [0.2,0.7,0.2];};
 
-	sleep 3;
+if((_flareFired) isKindOf "Flare_82mm_AMOS_White") then {
+	_flareColour = [1,1,1];
+	_flareIntensityModifier = enhanceFlares_mortar_flare_intensity_modifier;
+	_flareRangeModifier = enhanceFlares_mortar_flare_range_modifier;
+};
 
-	_al_flare_light = "#lightpoint" createVehicle (getPosATL _al_flare);  
-	_al_flare_light setLightAmbient _al_color_flare;  
-	_al_flare_light setLightColor _al_color_flare;
-	_al_flare_light setLightIntensity enhanceFlares_flare_intensity;
+sleep 3;
 
-	if (_mortar_flare_on) then {
-		_al_flare_light setLightIntensity enhanceFlares_mortar_flare_intensity
-	};
+private _flareIntensity = (enhanceFlares_flare_intensity*_flareIntensityModifier);
+private _flareAttenuation = (enhanceFlares_flare_range*_flareRangeModifier);
 
-	_al_flare_light setLightUseFlare true;
-	_al_flare_light setLightFlareSize 10;
-	_al_flare_light setLightFlareMaxDistance 2000;
-	_al_flare_light setLightAttenuation [enhanceFlares_flare_range,1,100,0,50,enhanceFlares_flare_range-10]; 
+private _flareLight = "#lightpoint" createVehicle (getPosATL _flareFired);  
+_flareLight setLightAmbient _flareColour;  
+_flareLight setLightColor _flareColour;
+_flareLight setLightIntensity _flareIntensity;
+_flareLight setLightUseFlare true;
+_flareLight setLightFlareSize 10;
+_flareLight setLightFlareMaxDistance 2000;
+_flareLight setLightAttenuation [_flareAttenuation,1,100,0,50,_flareAttenuation-10]; 
+_flareLight setLightDayLight true;
 
-	if (_mortar_flare_on) then {
-		_al_flare_light setLightAttenuation [enhanceFlares_mortar_flare_range,1,100,0,50,enhanceFlares_mortar_flare_range-10];
-		_mortar_flare_on = false;
-	}; 
+_inter_flare = 0;
 
-	_al_flare_light setLightDayLight true;
-
-	_inter_flare = 0;
-
-	if (_mortar_flare_on) then {type_flare=enhanceFlares_mortar_flare_intensity} else {type_flare = enhanceFlares_flare_intensity};
-
-	while {!isNull _al_flare} do {
-		_int_mic = 0.05 + random 0.01;
-		sleep _int_mic;
-		_flare_brig = type_flare+random 10;
-		_al_flare_light setLightIntensity _flare_brig;
-		_inter_flare = _inter_flare + _int_mic;
-		_al_flare_light setPos (getPosATL _al_flare);
-	};
+while {!isNull _flareFired} do {
+	_int_mic = 0.05 + random 0.01;
+	sleep _int_mic;
+	_flare_brig = _flareIntensity+random 10;
+	_flareLight setLightIntensity _flare_brig;
+	_inter_flare = _inter_flare + _int_mic;
+	_flareLight setPos (getPosATL _flareFired);
 };
