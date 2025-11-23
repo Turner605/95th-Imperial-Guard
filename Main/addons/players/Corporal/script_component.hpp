@@ -1,5 +1,5 @@
-#define COMPONENT corporal
-#define COMPONENT_BEAUTIFIED Corporal
+#define COMPONENT players_corporal
+#define COMPONENT_BEAUTIFIED Players_Corporal
 #define PLAYER_NAME corporal
 #define PLAYER_NAME_BEAUTIFIED Corporal
 

@@ -99,13 +99,13 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Helmet_Squad_One_Zero {
-			label = "1-0 Anooba";
+			label = "1-0 Platoon";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearHelmets.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_zero.hpp"
 		};
 
 		class AUX_95th_Helmet_Squad_One_One {
-			label = "1-1 Ackley";
+			label = "1-1 Infantry";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearHelmets.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_one.hpp"
 		};
@@ -123,13 +123,13 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Helmet_Squad_One_Four {
-			label = "1-4 Sarlacc";
+			label = "1-4 Sarlaac";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearHelmets.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_four.hpp"
 		};
 
 		class AUX_95th_Helmet_Squad_Five_Zero {
-			label = "5-0 Zillo";
+			label = "5-0 Mechanized";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearHelmets.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\five_zero.hpp"
 		};
@@ -173,13 +173,13 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Uniform_Squad_One_Zero {
-			label = "1-0 Anooba";
+			label = "1-0 Platoon";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearUniforms.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_zero.hpp"
 		};
 
 		class AUX_95th_Uniform_Squad_One_One {
-			label = "1-1 Ackley";
+			label = "1-1 Infantry";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearUniforms.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_one.hpp"
 		};
@@ -203,7 +203,7 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Uniform_Squad_Five_Zero {
-			label = "5-0 Zillo";
+			label = "5-0 Mechanized";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearUniforms.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\five_zero.hpp"
 		};
@@ -245,13 +245,13 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Vests_Squad_One_Zero {
-			label = "1-0 Anooba";
+			label = "1-0 Platoon";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearVests.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_zero.hpp"
 		};
 
 		class AUX_95th_Vests_Squad_One_One {
-			label = "1-1 Ackley";
+			label = "1-1 Infantry";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearVests.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_one.hpp"
 		};
@@ -275,7 +275,7 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Vests_Squad_Five_Zero {
-			label = "5-0 Zillo";
+			label = "5-0 Mechanized";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearVests.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\five_zero.hpp"
 		};
@@ -319,13 +319,13 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Backpacks_Squad_One_Zero {
-			label = "1-0 Anooba";
+			label = "1-0 Platoon";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearBackpacks.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_zero.hpp"
 		};
 
 		class AUX_95th_Backpacks_Squad_One_One {
-			label = "1-1 Ackley";
+			label = "1-1 Infantry";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearBackpacks.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\one_one.hpp"
 		};
@@ -349,7 +349,7 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Backpacks_Squad_Five_Zero {
-			label = "5-0 Zillo";
+			label = "5-0 Mechanized";
 			#include "\z\AUX_95th_40k_IG_Main\addons\players\shared\XtdGearModels\xtdGearBackpacks.hpp"
 			#include "\z\AUX_95th_40k_IG_Main\addons\main\xtdGearSquads\five_zero.hpp"
 		};

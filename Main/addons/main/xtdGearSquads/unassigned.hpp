@@ -1,8 +1,8 @@
 class Player {
     alwaysSelectable = 0;
     labels = "Player";
-    values[] = {"Biedronka", "Havoc", "Hazard", "Neary", "Taylor", "Third", "Dilanza", "Osprey", "Kaz", "King", "Pendragon", "Neron"};
-    class Biedronka { label = "Biedronka"; description = "Biedronka"; };
+    values[] = {"Skye", "Havoc", "Hazard", "Neary", "Taylor", "Third", "Dilanza", "Osprey", "Kaz", "King", "Pendragon", "Neron"};
+    class Skye { label = "Skye"; description = "Skye's"; };
     class Havoc { label = "Havoc"; description = "Havoc`s"; };
     class Hazard { label = "Hazard"; description = "Hazard`s"; };
     class Neary { label = "Neary"; description = "Neary`s"; };

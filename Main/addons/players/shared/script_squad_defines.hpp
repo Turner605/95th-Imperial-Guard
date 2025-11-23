@@ -20,12 +20,12 @@
 
 #if SQUAD_KEY == One_Zero
     #define SQUAD_NUMBER 1-0
-    #define SQUAD_NAME Anooba
+    #define SQUAD_NAME Platoon
 #endif
 
 #if SQUAD_KEY == One_One
     #define SQUAD_NUMBER 1-1
-    #define SQUAD_NAME Ackley
+    #define SQUAD_NAME Infantry
 #endif
 
 #if SQUAD_KEY == One_Two
@@ -45,7 +45,7 @@
 
 #if SQUAD_KEY == Five_Zero
     #define SQUAD_NUMBER 5-0
-    #define SQUAD_NAME Zillo
+    #define SQUAD_NAME Mechanized
 #endif
 
 #if SQUAD_KEY == Six_Zero
