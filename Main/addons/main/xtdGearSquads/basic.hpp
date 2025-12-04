@@ -1,7 +1,7 @@
 class Player {
     alwaysSelectable = 0;
     labels = "Player";
-    values[] = {"Trooper", "Medic", "Senior", "Veteran", "Sergeant", "Lieutenant","Corporal","Captain","Mech"};
+    values[] = {"Trooper", "Medic", "Senior", "Veteran", "Sergeant", "Lieutenant","Corporal","Captain","Mech","ColdClimate"};
     class Trooper { label = "Trooper"; description = "Trooper Helmet"; };
     class Medic { label = "Medic"; description = "Medic Helmet"; };
     class Senior { label = "Senior"; description = "Senior Helmet"; };
@@ -11,4 +11,5 @@ class Player {
     class Corporal { label = "Corporal"; description = "Corporal Gear"; };
     class Captain { label = "Captain"; description = "Captain Gear"; };
     class Mech { label = "Mech"; description = "Mechanised Gear"; };
+    class ColdClimate { label = "ColdClimate"; description = "Cold Climate gear"; };
 };
