@@ -8,7 +8,7 @@
 
 // HELMET OPTIONS 0 (False), 1 (True)
 #define HELMET_BASIC 1
-#define HELMET_MASK 0
+#define HELMET_MASK 1
 #define PATROL_CAP 0
 #define TANKER_CAP 0
 #define NCO_CAP 0
