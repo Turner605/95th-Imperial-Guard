@@ -14,6 +14,14 @@
         };
     };
 
+    class AUX_95th_Unit_Unarmoured_Snow_##PLAYER_NAME : AUX_95th_Unit_Unarmoured_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Unarmoured_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPants_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTop_co.paa)
+        };
+    };
+
     class FIG_CadianUniformV1Rolled_inf_B;
     class AUX_95th_Unit_Unarmoured_Rolled_##PLAYER_NAME : FIG_CadianUniformV1Rolled_inf_B {\
         scope = 2;
@@ -26,6 +34,14 @@
 		hiddenSelectionsTextures[] = {
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPants_co.paa), 
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopRolled_co.paa)
+        };
+    };
+
+    class AUX_95th_Unit_Unarmoured_Rolled_Snow_##PLAYER_NAME : AUX_95th_Unit_Unarmoured_Rolled_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Unarmoured_Rolled_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPants_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTopRolled_co.paa)
         };
     };
 
@@ -44,6 +60,14 @@
         };
     };
 
+    class AUX_95th_Unit_Light_Snow_##PLAYER_NAME : AUX_95th_Unit_Light_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Light_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPantsKnees_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTop_co.paa)
+        };
+    };
+
     class FIG_CadianUniformV2Rolled_inf_B;
     class AUX_95th_Unit_Light_Rolled_##PLAYER_NAME : FIG_CadianUniformV2Rolled_inf_B {\
         scope = 2;
@@ -56,6 +80,14 @@
 		hiddenSelectionsTextures[] = {
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsKnees_co.paa), 
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopRolled_co.paa)
+        };
+    };
+
+    class AUX_95th_Unit_Light_Rolled_Snow_##PLAYER_NAME : AUX_95th_Unit_Light_Rolled_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Light_Rolled_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPantsKnees_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTopRolled_co.paa)
         };
     };
 
@@ -74,6 +106,14 @@
         };
     };
 
+    class AUX_95th_Unit_Medium_Snow_##PLAYER_NAME : AUX_95th_Unit_Medium_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Medium_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPantsThighs_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTop_co.paa)
+        };
+    };
+
     class FIG_CadianUniformV3Rolled_inf_B;
     class AUX_95th_Unit_Medium_Rolled_##PLAYER_NAME : FIG_CadianUniformV3Rolled_inf_B {\
         scope = 2;
@@ -86,6 +126,14 @@
  		hiddenSelectionsTextures[] = {
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsThighs_co.paa), 
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopRolled_co.paa)
+        };
+    };
+
+    class AUX_95th_Unit_Medium_Rolled_Snow_##PLAYER_NAME : AUX_95th_Unit_Medium_Rolled_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Medium_Rolled_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPantsThighs_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTopRolled_co.paa)
         };
     };
 
@@ -103,6 +151,15 @@
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopGloves_co.paa)
         };
     };
+
+    class AUX_95th_Unit_Heavy_Snow_##PLAYER_NAME : AUX_95th_Unit_Heavy_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_Heavy_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPantsThighs_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTopGloves_co.paa)
+        };
+    };
+
 #endif
 
 #if UNIFORM_NCO == 1
@@ -118,6 +175,14 @@
 		hiddenSelectionsTextures[] = {
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniPantsKnees_co.paa), 
             QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\FIG_CadianUniTopNCO_co.paa)
+        };
+    };
+    
+    class AUX_95th_Unit_NCO_Snow_##PLAYER_NAME : AUX_95th_Unit_NCO_##PLAYER_NAME {\
+        uniformClass=QUOTE(DOUBLES(AUX_95th_Uniform_NCO_Snow,PLAYER_NAME));
+		hiddenSelectionsTextures[] = {
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniPantsKnees_co.paa), 
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\uniforms\snow\FIG_CadianUniTopNCO_co.paa)
         };
     };
 #endif

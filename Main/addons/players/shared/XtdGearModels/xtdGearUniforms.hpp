@@ -1,5 +1,5 @@
 author = "95th Aux Team";
-options[] = {"Type", "Player", "Sleeves"};
+options[] = {"Type", "Player", "Sleeves", "Camo"};
 
 class Sleeves {
 	labels = "Sleeves";
@@ -17,4 +17,12 @@ class Type {
 	class Medium { label = "Medium"; description = "Medium Armour Uniform"; };
 	class Heavy { label = "Heavy"; description = "Heavy Armour Uniform"; };
 	class NCO { label = "NCO"; description = "NCO Uniform"; };
+};
+
+class Camo {
+	alwaysSelectable = 0;
+	labels = "Type";
+	values[] = {"Standard", "Snow"};
+	class Standard { label = "Standard"; description = "Standard Deployment Uniform"; };
+	class Snow { label = "Snow"; description = "Snow Uniform"; };
 };
