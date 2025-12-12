@@ -14,6 +14,7 @@ class CfgPatches {
             "CadianFlag"
         };
         authors[] = {"Turner"};
+        skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };
