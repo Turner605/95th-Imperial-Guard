@@ -3,7 +3,7 @@
     class AUX_95th_Backpack_Invisible_##PLAYER_NAME : FIG_InvisibleBackpack {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -23,7 +23,7 @@
     class AUX_95th_Backpack_Light_##PLAYER_NAME : ic_elysianBackpack {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -43,7 +43,7 @@
     class AUX_95th_Backpack_Standard_One_##PLAYER_NAME : ic_CadianBackpackV1 {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -61,7 +61,7 @@
     class AUX_95th_Backpack_Standard_Two_##PLAYER_NAME : ic_CadianBackpackV2 {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -79,7 +79,7 @@
     class AUX_95th_Backpack_Standard_Three_##PLAYER_NAME : ic_CadianBackpackV4 {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -99,7 +99,7 @@
     class AUX_95th_Backpack_Medic_##PLAYER_NAME : ic_CadianBackpackV7 {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=275;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -119,7 +119,7 @@
     class AUX_95th_Backpack_Heavy_##PLAYER_NAME : ic_CadianBackpackV8 {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -139,7 +139,7 @@
     class AUX_95th_Backpack_Engineer_##PLAYER_NAME : ic_CarryAll {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=275;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -159,7 +159,7 @@
     class AUX_95th_Backpack_AT_##PLAYER_NAME : ic_cad_RocketPack_NoStraps {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    // maximumLoad=150;
+	     maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
