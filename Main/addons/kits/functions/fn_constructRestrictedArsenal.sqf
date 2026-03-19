@@ -23,8 +23,7 @@ AUX_95th_Arsenal_Whitelisted_Gear = ["ic_cad_magnoculars","HOV_SW_Vox", "ItemMic
     "AUX_95th_IC_cad_rebreather_green", "AUX_95th_ic_bionicEye", "AUX_95th_TIOW_Bionic_Eye_2", "AUX_95th_TIOW_Bionic_Eye_2_Green", "AUX_95th_TIOW_Bionic_Eye", "AUX_95th_TIOW_Bionic_Eye_Green",
     "AUX_95th_ic_Cadian_Extra4_NVG", "AUX_95th_ic_Cadian_Extra4V2_NVG", "AUX_95th_ic_Cadian_Extra4V3_NVG", "AUX_95th_ic_Cadian_Extra4V4_NVG", "AUX_95th_ic_Cadian_Extra4V5_NVG", 
     "AUX_95th_ic_Cadian_MedicaePouches_NVG", "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_cad_CamoNetBodyV2", "AUX_95th_FIG_CadianGogglesUp", "AUX_95th_FIG_CadianGogglesDown", 
-    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_immersion_cigs_cigar0_nv", "AUX_95th_FIG_CadianAuspecsGrey", "ItemMap", "ItemCompass", "ItemWatch", "WBK_Narth_3", 
-    "AUX_95th_Uniform_Unarmoured_Snow_trooper"];
+    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_immersion_cigs_cigar0_nv", "AUX_95th_FIG_CadianAuspecsGrey", "ItemMap", "ItemCompass", "ItemWatch", "WBK_Narth_3"];
 
 AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_TXA","ACE_tourniquet","ACE_surgicalKit","kat_stethoscope","ACE_splint","kat_scalpel","kat_retractor","kat_Pulseoximeter","ACE_plasmaIV",
