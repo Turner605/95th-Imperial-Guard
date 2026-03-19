@@ -1,7 +1,7 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael", "ML700_PlasmaRifle_F", "ML700_Grenade_Launcher", "VNG_IG_GL", "FIG_Laspistol",
  "TIOW_MeltaGun_01", "ICP_LMG_01_imp", "dm_cad_autogunPara", "FIG_CombatShotgun", "TIOW_LongLas_836", "TIOW_IG_Flamer", "FIG_Knife", "FIG_KnifeRotated",
-  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_Uni_grey", "TIOW_Bolt_Pistol2", "WBK_HumanChainsword_2",
-  "ML700_PlasmaPistol_F", "FIG_PowerSword", "Cadian_95th_Banner_Weapon"];
+  "FIG_KriegMace", "Shovel_Russian_Rotated", "IC_CAD_Rocketlauncher_base", "IC_Launcher_Uni_grey", "TIOW_Bolt_Pistol2", "TIOW_Bolt_Pistol", "WBK_HumanChainsword_2",
+  "ML700_PlasmaPistol_F", "FIG_PowerSword", "Cadian_95th_Banner_Weapon", "FIG_Bolter"];
 
 AUX_95th_Arsenal_Whitelisted_Throwables = ["ToH_IG_Frag_Grenade", "ToH_IG_Krak_Grenade", "ToH_IG_Smoke_Grenade", "ToH_IG_Melta_Bomb"];
 
@@ -12,7 +12,7 @@ AUX_95th_Arsenal_Whitelisted_Magazines = ["ML700_PlasmaRifle_Battery", "ML700_Pl
   "ML700_6rnd_SmokeRed", "ML700_6rnd_SmokeWhite", "TIOW_IG_GL_Flare_mag", "ACE_HuntIR_M203", "FIG_LasPistol_Standart", "TIOW_Meltagun_Mag", "toh_hs_100rnd_mag",
   "toh_hs_30rnd_mag", "FIG_8Rnd_ShotgunMag", "FIG_8Rnd_ShotgunMagSlug", "TIOW_LongLas_Mag", "TOH_Flak_Missile_mag",
    "IC_frag_Missile_mag", "IC_Krak_rocket_mag", "IC_Frag_rocket_mag", "TIOW_Krieg_Flamer_mag", "murshun_cigs_lighter", "murshun_cigs_cigpack", "murshun_cigs_matches",
-    "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag", "ML700_PlasmaPistol_Battery_Overcharged", "ML700_PlasmaPistol_Battery", "ic_30rnd_825_rifleMag"];
+    "TIOW_IGBoltPistol_Mag", "IC_krakk_Missile_mag", "ML700_PlasmaPistol_Battery_Overcharged", "ML700_PlasmaPistol_Battery", "ic_30rnd_825_rifleMag", "Fig_BolterMag"];
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet"];
 
@@ -23,7 +23,8 @@ AUX_95th_Arsenal_Whitelisted_Gear = ["ic_cad_magnoculars","HOV_SW_Vox", "ItemMic
     "AUX_95th_IC_cad_rebreather_green", "AUX_95th_ic_bionicEye", "AUX_95th_TIOW_Bionic_Eye_2", "AUX_95th_TIOW_Bionic_Eye_2_Green", "AUX_95th_TIOW_Bionic_Eye", "AUX_95th_TIOW_Bionic_Eye_Green",
     "AUX_95th_ic_Cadian_Extra4_NVG", "AUX_95th_ic_Cadian_Extra4V2_NVG", "AUX_95th_ic_Cadian_Extra4V3_NVG", "AUX_95th_ic_Cadian_Extra4V4_NVG", "AUX_95th_ic_Cadian_Extra4V5_NVG", 
     "AUX_95th_ic_Cadian_MedicaePouches_NVG", "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_cad_CamoNetBodyV2", "AUX_95th_FIG_CadianGogglesUp", "AUX_95th_FIG_CadianGogglesDown", 
-    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_immersion_cigs_cigar0_nv", "AUX_95th_FIG_CadianAuspecsGrey", "ItemMap", "ItemCompass", "ItemWatch", "WBK_Narth_3"];
+    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_immersion_cigs_cigar0_nv", "AUX_95th_FIG_CadianAuspecsGrey", "ItemMap", "ItemCompass", "ItemWatch", "WBK_Narth_3", 
+    "AUX_95th_Uniform_Unarmoured_Snow_trooper"];
 
 AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_TXA","ACE_tourniquet","ACE_surgicalKit","kat_stethoscope","ACE_splint","kat_scalpel","kat_retractor","kat_Pulseoximeter","ACE_plasmaIV",
