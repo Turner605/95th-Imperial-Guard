@@ -45,19 +45,49 @@ class CfgVehicles {
         displayName = "Wall (Holes)";
     };
 
+    class land_dmDefenseLine_2;
+    class AUX_95th_land_dmDefenseLine_2: land_dmDefenseLine_2{
+        displayName = "Wall (Open)";
+    };
+
+    class land_dmDefenseLine_3;
+    class AUX_95th_land_dmDefenseLine_3: land_dmDefenseLine_3{
+        displayName = "Wall (Open/Holes)";
+    };
+
     class land_dmDefenseLine_4;
     class AUX_95th_land_dmDefenseLine_4: land_dmDefenseLine_4{
         displayName = "Wall (Solid)";
     };
 
-    class ListeningPost;
-    class AUX_95th_ListeningPost: ListeningPost{
+    class land_dmDefenseLineDoorway;
+    class AUX_95th_land_dmDefenseLineDoorway: land_dmDefenseLineDoorway{
+        displayName = "Wall (Doorway)";
+    };
+
+    class land_dmDefenseLine_7;
+    class AUX_95th_land_dmDefenseLine_7: land_dmDefenseLine_7{
+        displayName = "Wall (Angle)";
+    };
+
+    class RenegadeListeningPost;
+    class AUX_95th_RenegadeListeningPost: RenegadeListeningPost{
         displayName = "Rally Point";
     };
 
-    class Sandbag_Wall_Short1;
-    class AUX_95th_Sandbag_Wall_Short1: Sandbag_Wall_Short1{
-        displayName = "Sandbag (Short)";
+    class land_FIG_SandbagStraight;
+    class AUX_95th_land_FIG_SandbagStraight: land_FIG_SandbagStraight{
+        displayName = "Sandbag (Straight)";
+    };
+
+    class land_FIG_SandbagGunport;
+    class AUX_95th_land_land_FIG_SandbagGunport: land_FIG_SandbagGunport{
+        displayName = "Sandbag (Gunport)";
+    };
+
+    class land_FIG_SandbagCurved;
+    class AUX_95th_land_FIG_SandbagCurved: land_FIG_SandbagCurved{
+        displayName = "Sandbag (Curved)";
     };
 
     class Sandbag_Wall_Roof_Short2;
@@ -68,6 +98,11 @@ class CfgVehicles {
     class Sandbag_bunker2;
     class AUX_95th_Sandbag_bunker2: Sandbag_bunker2{
         displayName = "Sandbag (Bunker)";
+    };
+    
+    class land_FIG_Bunker1;
+    class AUX_95th_land_FIG_Bunker1: land_FIG_Bunker1{
+        displayName = "Bunker";
     };
 
 };
