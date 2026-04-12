@@ -10,10 +10,10 @@ hidePicture     = "false";                  // Hide the extension menu
 logoSmall       = "icon_64_ca.paa";         // Display next to the item added by the mod 64x64
 logo            = "icon_128_ca.paa";        // Logo displayed in the main menu 128x128
 logoOver        = "icon_128_highlight_ca.paa"; // When the mouse is over, in the main menu 128x128
-tooltip         = "95th Imperial Guard Aux";
-tooltipOwned    = "95th Imperial Guard Aux";  // Tool tip displayed when the mouse is left over, in the main menu
-overview        = "95th Imperial Guard Aux Mod";         // Overview text, displayed from the extension menu
-description     = "The aux mod for the 95th Imperial Guard."; // Probably in context with action
+tooltip         = "95th Iron Auxilia Aux";
+tooltipOwned    = "95th Iron Auxilia Aux";  // Tool tip displayed when the mouse is left over, in the main menu
+overview        = "95th Iron Auxilia Aux Mod";         // Overview text, displayed from the extension menu
+description     = "The aux mod for the 95th Iron Auxilia."; // Probably in context with action
 action          = "https://discord.gg/UTfjKHdqnj";    // Website URL, that can accessed from the expansions menu 
 actionName      = "Discord";                 // label of button/tooltip in extension menu
 
