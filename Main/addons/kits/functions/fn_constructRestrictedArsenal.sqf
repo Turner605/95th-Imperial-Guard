@@ -15,7 +15,14 @@ AUX_95th_Arsenal_Whitelisted_Magazines = ["FIG_LasGun_Standart", "FIG_LasGun_Hot
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet", "bipod_01_F_blk", "FIG_LasGun_LongLas", "FIG_LongLasWrapChaos"];
 
-AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_cad_magnoculars", "ItemcTab", "ItemMicroDAGR", "TFAR_anprc152"];
+AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_cad_magnoculars", "ItemcTab", "ItemMicroDAGR", "TFAR_anprc152", "FIG_IronCultHelmNM",
+    "FIG_IronCultHelm", "Cad_Tnk_Helm", "FIG_IronChudUniform_U_B", "FIG_IronCultArmourLight", "FIG_IronCultArmour", "FIG_IronCultArmourV2", "FIG_ChaosSkullStandard",
+    "FIG_ChaosSkullStandardNVG", "FIG_ChaosSkulls", "FIG_ChaosSkullsNVG", "FIG_CadianOGMaskFaceWNVGrey", "FIG_CadianOGMaskFaceWGrey, "ic_thracian_GASMASK_02",
+    "ic_thracian_GASMASK", "TIOW_Cultist_Gasmask", "FIG_VitrianGogglesDown", "FIG_VitrianGogglesUp, "FIG_VitrianGogglesDownNVG, "FIG_VitrianGogglesUpNVG",
+    "FIG_CadianHeadwrapGrey", "FIG_CadianHeadwrapV2Grey", "ic_AjaxCovers1", "FIG_TanithCloak, "AUX_95th_FIG_CadianWebbing", "AUX_95th_ic_cad_CamoNetBodyV2",
+    "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_Cadian_MedicPouches", "AUX_95th_ic_Cadian_MedicaePouches_NVG", "AUX_95th_ic_Cadian_Extra4V5", "AUX_95th_ic_Cadian_Extra4V5_NVG",
+    "FIG_CadianWebbing", "FIG_CadianWebbing2", "FIG_CadianWebbing3", "FIG_Bandolier", "FIG_BandolierLP", "FIG_LegPouch", "Merc_Punch_G", "Merc_Punch_NV", "ic_EODPadding",
+    "ic_AjaxCovers2_2", "ic_moebianGasmask31st", "FIG_SniperNVGs"];
 
 AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_TXA","ACE_tourniquet","ACE_surgicalKit","kat_stethoscope","ACE_splint","kat_scalpel","kat_retractor","kat_Pulseoximeter","ACE_plasmaIV",
@@ -31,7 +38,10 @@ AUX_95th_Arsenal_Whitelisted_Medical = [
 ];
 
 AUX_95th_Arsenal_Whitelisted_Backpacks = ["Dos_PP_UAV_1", "CadianAABackpack", "CadianATBackpack", "CadianMortarBackpack", "FIG_CadianBackpackACPCMOB6", "FIG_CadianBackpackHBPCMOB6",
-    "CadianLascannonBackpack", "CadianMultilasBackpack"];
+    "CadianLascannonBackpack", "CadianMultilasBackpack", "FIG_BandolierBP", "FIG_BandolierLPBP", "FIG_CadianBackpack1", "FIG_ChaosBackpack", "FIG_CadianBackpack2Light",
+    "FIG_CadianBackpack2LightCable", "FIG_CadianBackpack2LightKnife", "FIG_CadianBackpack2LightCableKnife", "FIG_PowerpackMoebianChaos", "FIG_PowerpackWCableMoebianChaos",
+    "FIG_CadianVoxBackpackMoebianChaos", "FIG_CadianBackpack2", "FIG_CadianBackpack2BRSH", "FIG_CadianBackpack2BR", "FIG_CadianBackpack2BRSHK", "FIG_CadianBackpack2BRSHP",
+    "FIG_CadianBackpack2BRSHPK", "FIG_CadianBackpack2K", "FIG_CadianBackpack2KSH", "FIG_CadianBackpack2Medicae"];
 
 AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ACE_wirecutter","ToolKit","ACE_Tripod","ACE_SpraypaintRed","ACE_SpraypaintGreen","ACE_SpraypaintBlue","ACE_SpraypaintBlack","ACE_SpottingScope",
@@ -41,7 +51,7 @@ AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ace_marker_flags_white","ace_marker_flags_yellow","ACE_microDAGR","MineDetector","ACE_HuntIR_monitor","ACE_RangeTable_82mm",
 	"rw_canistra","ACE_RangeCard",
     "WBK_HeadLampItem_Double", "WBK_HeadLampItem_Narrow", "WBK_HeadLampItem_Long", "WBK_HeadLampItem", "WBK_ShoulderLampItem_Regular", "WBK_ShoulderLampItem_Strong",
-    "WBK_ShoulderLampItem_Weak", "ML700_S_Plasma_Coolant", "WBK_NarthBlood", "TFAR_anprc152"
+    "WBK_ShoulderLampItem_Weak", "WBK_NarthBlood", "TFAR_anprc152"
 ];
 
 AUX_95th_Arsenal_Whitelisted_All = (
