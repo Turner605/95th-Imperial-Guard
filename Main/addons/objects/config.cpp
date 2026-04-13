@@ -38,9 +38,9 @@ class CfgEditorSubcategories{
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
-    class dm_crate1_1;
+    class 3AS_Small_Box_9_Black_Prop;
 
-    class AUX_95th_Crate_Arsenal_Full: dm_crate1_1 {
+    class AUX_95th_Crate_Arsenal_Full: 3AS_Small_Box_9_Black_Prop {
         displayName="Arsenal (Full)";
         editorCategory="AUX_95th_Objects_Imperial";
         editorSubcategory="AUX_95th_Objects_Crates";
@@ -56,7 +56,7 @@ class CfgVehicles {
         };
     };
 
-    class AUX_95th_Crate_Arsenal_Restricted: dm_crate1_1 {
+    class AUX_95th_Crate_Arsenal_Restricted: 3AS_Small_Box_9_Black_Prop {
         displayName="Arsenal (Restricted)";
         editorCategory="AUX_95th_Objects_Imperial";
         editorSubcategory="AUX_95th_Objects_Crates";
@@ -72,7 +72,7 @@ class CfgVehicles {
         };
     };
 
-    class AUX_95th_Crate_Arsenal_Inverted: dm_crate1_1 {
+    class AUX_95th_Crate_Arsenal_Inverted: 3AS_Small_Box_9_Black_Prop {
         displayName="Arsenal (Inverted)";
         editorCategory="AUX_95th_Objects_Imperial";
         editorSubcategory="AUX_95th_Objects_Crates";
