@@ -17,7 +17,7 @@ AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet", "bipod_01_F_blk", 
 
 AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_cad_magnoculars", "ItemcTab", "ItemMicroDAGR", "TFAR_anprc152", "FIG_IronCultHelmNM",
     "FIG_IronCultHelm", "Cad_Tnk_Helm", "FIG_IronChudUniform_U_B", "FIG_IronCultArmourLight", "FIG_IronCultArmour", "FIG_IronCultArmourV2", "FIG_ChaosSkullStandard",
-    "FIG_ChaosSkullStandardNVG", "FIG_ChaosSkulls", "FIG_ChaosSkullsNVG", "FIG_CadianOGMaskFaceWNVGrey", "FIG_CadianOGMaskFaceWGrey, "ic_thracian_GASMASK_02",
+    "FIG_ChaosSkullStandardNVG", "FIG_ChaosSkulls", "FIG_ChaosSkullsNVG", "FIG_CadianOGMaskFaceWNVGrey", "FIG_CadianOGMaskFaceWGrey", "ic_thracian_GASMASK_02",
     "ic_thracian_GASMASK", "TIOW_Cultist_Gasmask", "FIG_VitrianGogglesDown", "FIG_VitrianGogglesUp, "FIG_VitrianGogglesDownNVG, "FIG_VitrianGogglesUpNVG",
     "FIG_CadianHeadwrapGrey", "FIG_CadianHeadwrapV2Grey", "ic_AjaxCovers1", "FIG_TanithCloak, "AUX_95th_FIG_CadianWebbing", "AUX_95th_ic_cad_CamoNetBodyV2",
     "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_Cadian_MedicPouches", "AUX_95th_ic_Cadian_MedicaePouches_NVG", "AUX_95th_ic_Cadian_Extra4V5", "AUX_95th_ic_Cadian_Extra4V5_NVG",
