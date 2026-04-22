@@ -7,12 +7,16 @@ class AUX_95th_Fortify_Preset_Small {
 		{"AUX_95th_land_dmDefenseLine_4", 15}, //Wall (Solid)
 		{"AUX_95th_land_dmDefenseLineDoorway", 15}, //Wall (Doorway)
 		{"AUX_95th_land_dmDefenseLine_7", 15}, //Wall (Corner)
-		{"AUX_95th_land_FIG_SandbagStraight", 10}, //Sandbag (Straight)
-		{"AUX_95th_land_land_FIG_SandbagGunport", 10}, //Sandbag (Gunport)
-		{"AUX_95th_land_FIG_SandbagCurved", 10}, //Sandbag (Curved)
+		{"AUX_95th_land_FIG_SandbagStraight", 9}, //Sandbag (Straight)
+		{"AUX_95th_land_land_FIG_SandbagGunport", 9}, //Sandbag (Gunport)
+		{"AUX_95th_land_FIG_SandbagCurved", 9}, //Sandbag (Curved)
 		{"AUX_95th_Sandbag_bunker2", 15}, //Sandbag Bunker
 		{"AUX_95th_Sandbag_Wall_Roof_Short2", 10}, //Walkway
 		{"AUX_95th_RenegadeListeningPost", 60}, //Rally Point
-		{"AUX_95th_land_FIG_Bunker1", 100} //Bunker
+		{"AUX_95th_land_FIG_Bunker1", 60}, //Bunker
+		{"AUX_95th_3AS_Metal_Trench_Short", 20}, //Trench
+		{"AUX_95th_3AS_Metal_Trench_Corner", 20}, //Trench(Corner)
+		{"AUX_95th_3AS_Metal_Trench_T", 20} //Trench(T)
+		
 	};
 };

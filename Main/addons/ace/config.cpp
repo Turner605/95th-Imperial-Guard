@@ -104,6 +104,21 @@ class CfgVehicles {
     class AUX_95th_land_FIG_Bunker1: land_FIG_Bunker1{
         displayName = "Bunker";
     };
+    
+    class 3AS_Metal_Trench_Short;
+    class AUX_95th_3AS_Metal_Trench_Short: 3AS_Metal_Trench_Short{
+        displayName = "Trench";
+    };
+    
+    class 3AS_Metal_Trench_Corner;
+    class AUX_95th_3AS_Metal_Trench_Corner: 3AS_Metal_Trench_Corner{
+        displayName = "Trench (Corner)";
+    };
+    
+    class 3AS_Metal_Trench_T;
+    class AUX_95th_3AS_Metal_Trench_T: 3AS_Metal_Trench_T{
+        displayName = "Trench (T)";
+    };
 
 };
 

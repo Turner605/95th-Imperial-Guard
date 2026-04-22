@@ -1,6 +1,6 @@
 if (!isServer) exitWith {};
 
-private _side = west;
+private _side = east;
 private _preset = "AUX_95th_Fortify_Preset_Small";
 private _budget = -1;
 

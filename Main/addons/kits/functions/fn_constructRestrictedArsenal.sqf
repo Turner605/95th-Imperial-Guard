@@ -1,5 +1,5 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael_Moebian6th", "FIG_M36VossFoldedChaos", "FIG_M36VossChaos", "FIG_NemessisChaos", "FIG_M36Kantrael_ChaosNeutral",
-    "FIG_M36KantraelChaos", "FIG_AutogunChaos", "FIG_BolterChaos", "FIG_LongLasChaos", "FIG_HeavyStubberK", "TIOW_IG_Plasmagun_01", "ICP_LMG_01_imp", 
+    "FIG_M36KantraelChaos", "FIG_AutogunGrey", "FIG_Bolter", "FIG_LongLasChaos", "FIG_HeavyStubberK", "TIOW_IG_Plasmagun_01", "ICP_LMG_01_imp", 
     "shotgun_BG_1","TIOW_IG_Flamer", "TIOW_KriegLauncher", "TIOW_MeltaGun_01", "Shovel_Russian_Rotated", "FIG_Knife", "FIG_KnifeRotated", "FIG_KriegAxe",
     "FIG_KriegMace", "FIG_PowerSword", "FIG_Laspistol", "TIOW_Bolt_Pistol2", "TIOW_Guard_Plasma_Pistol", "WBK_PowerMace", "WBK_HumanChainsword_1", "WBK_HumanChainsword_2",
     "WBK_ChainAxe", "Web_Melee_Chain_Axe_H3F", "WBK_War_Hammer", "FIG_PowerSword", "FIG_ATRecoillessChaos", "BG_Launcher_AT_base"];
@@ -11,7 +11,7 @@ AUX_95th_Arsenal_Whitelisted_Explosives = ["TIOW_melta_bomb_placeable_Mag", "IC_
 AUX_95th_Arsenal_Whitelisted_Magazines = ["FIG_LasGun_Standart", "FIG_LasGun_HotShot", "FIG_AutogunMag", "Fig_BolterMag", "FIG_HeavyStubberMag", "DK_PlasmaGun_Flask",
     "DK_Overcharge_PlasmaGun_Flask", "toh_hs_100rnd_mag", "toh_hs_30rnd_mag", "AP_Drob_mag", "TIOW_Krieg_Flamer_mag", "TIOW_Krieg_GL_Buck_mag", "TIOW_Krieg_GL_Flare_mag",
     "TIOW_Krieg_GL_Frag_mag", "TIOW_Krieg_GL_Krak_mag", "TIOW_Krieg_GL_Smoke_mag", "TIOW_Meltagun_Mag", "TIOW_IGBoltPistol_Mag", "TIOW_IGPlasmaPistol_OC_Mag",
-    "TIOW_IGPlasmaPistol_Mag", "FIG_Recoilless_HEAT_F", "FIG_Recoilless_HE_F", "BG_AT_Mag_Tandem"];
+    "TIOW_IGPlasmaPistol_Mag", "FIG_Recoilless_HEAT_F", "FIG_Recoilless_HE_F", "BG_AT_Mag_Tandem", "FIG_LasPistol_Standart"];
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet", "bipod_01_F_blk", "FIG_LasGun_LongLas", "FIG_LongLasWrapChaos"];
 
