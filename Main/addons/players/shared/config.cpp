@@ -38,14 +38,14 @@ class XtdGearModels {
 			class Type {
 				alwaysSelectable = 1;
 				labels = "Type";
-				values[] = {"Headwrap","Chestwear","Goggles", "Cigarette", "Gloves", "Headset", "Cameras"};
+				values[] = {"Headwrap","Chestwear","Goggles", "Cigarette", "Gloves", "Headset", "Auspecs"};
 				class Headwrap { label = "Headwrap"; description = "Headwrap"; };
 				class Chestwear { label = "Chestwear"; description = "Chestwear"; };
 				class Goggles { label = "Goggles"; description = "Goggles"; };
 				class Cigarette { label = "Cigarette"; description = "Cigarette"; };
 				class Gloves { label = "Gloves"; description = "Gloves"; };
 				class Headset { label = "Headset"; description = "Headset"; };
-				class Cameras { label = "Cameras"; description = "Cameras"; };
+				class Auspecs { label = "Auspecs"; description = "Auspecs"; };
 			};
 
 			class Variant {
@@ -64,25 +64,21 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_NVG_Reward {
-			label = "Reward Facewear";
+			label = "Medicae Reward";
 			author = "95th Aux Team";
 			options[] = {"Type", "Variant"};
 
 			class Type {
 				alwaysSelectable = 1;
 				labels = "Type";
-				values[] = {"BionicEye"};
-				class BionicEye { label = "BionicEye"; description = "BionicEye"; };
+				values[] = {"Narth"};
+				class Narth { label = "Narth"; description = "Narth"; };
 			};
 
 			class Variant {
 				labels = "Variant";
-				values[] = {"One", "Two", "Three", "Four", "Five"};
+				values[] = {"One"};
 				class One { label = "1"; description = "1"; };
-				class Two { label = "2"; description = "2"; };
-				class Three { label = "3"; description = "3"; };
-				class Four { label = "4"; description = "4"; };
-				class Five { label = "5"; description = "5"; };
 			};
 		};
 
@@ -388,18 +384,19 @@ class XtdGearModels {
 			class Type {
 				alwaysSelectable = 1;
 				labels = "Type";
-				values[] = {"Headwrap","Chestwear","Goggles", "Cigarette", "Gloves", "Headset"};
+				values[] = {"Headwrap","Chestwear","Goggles", "Cigarette", "Gloves", "Headset", "Gasmask"};
 				class Headwrap { label = "Headwrap"; description = "Headwrap"; };
 				class Chestwear { label = "Chestwear"; description = "Chestwear"; };
 				class Goggles { label = "Goggles"; description = "Goggles"; };
 				class Cigarette { label = "Cigarette"; description = "Cigarette"; };
 				class Gloves { label = "Gloves"; description = "Gloves"; };
 				class Headset { label = "Headset"; description = "Headset"; };
+				class Gasmask { label = "Gasmask"; description = "Gasmask"; };
 			};
 
 			class Variant {
 				labels = "Variant";
-				values[] = {"One", "Two", "Three", "Four", "Five", "Six", "Seven"};
+				values[] = {"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
 				class One { label = "1"; description = "1"; };
 				class Two { label = "2"; description = "2"; };
 				class Three { label = "3"; description = "3"; };
@@ -407,6 +404,9 @@ class XtdGearModels {
 				class Five { label = "5"; description = "5"; };
 				class Six { label = "6"; description = "6"; };
 				class Seven { label = "7"; description = "7"; };
+				class Eight { label = "8"; description = "8"; };
+				class Nine { label = "9"; description = "9"; };
+				class Ten { label = "10"; description = "10"; };
 			};
 		};
 
@@ -424,8 +424,12 @@ class XtdGearModels {
 
 			class Variant {
 				labels = "Variant";
-				values[] = {"One"};
+				values[] = {"One", "Two", "Three", "Four", "Five"};
 				class One { label = "1"; description = "1"; };
+				class Two { label = "2"; description = "2"; };
+				class Three { label = "3"; description = "3"; };
+				class Four { label = "4"; description = "4"; };
+				class Five { label = "5"; description = "5"; };
 			};
 		};
 
@@ -437,14 +441,38 @@ class XtdGearModels {
 			class Type {
 				alwaysSelectable = 1;
 				labels = "Type";
-				values[] = {"Gorget"};
-				class Gorget { label = "Gorget"; description = "Gorget"; };
+				values[] = {"Skulls"};
+				class Gorget { label = "Skulls"; description = "Skulls"; };
 			};
 
 			class Variant {
 				labels = "Variant";
-				values[] = {"One"};
+				values[] = {"One", "Two"};
+				class One { label = "Officer"; description = "Officer"; };
+				class Two { label = "NCO"; description = "NCO"; };
+			};
+		};
+
+		class AUX_95th_Glasses_Reward {
+			label = "Reward Facewear";
+			author = "95th Aux Team";
+			options[] = {"Type", "Variant"};
+
+			class Type {
+				alwaysSelectable = 1;
+				labels = "Type";
+				values[] = {"Mask"};
+				class Mask { label = "Mask"; description = "Mask"; };
+			};
+
+			class Variant {
+				labels = "Variant";
+				values[] = {"One", "Two", "Three", "Four", "Five"};
 				class One { label = "1"; description = "1"; };
+				class Two { label = "2"; description = "2"; };
+				class Three { label = "3"; description = "3"; };
+				class Four { label = "4"; description = "4"; };
+				class Five { label = "5"; description = "5"; };
 			};
 		};
 	};
@@ -507,14 +535,26 @@ class CfgWeapons {
 		visionMode[]={};
 		class XtdGearInfo {
             model = "AUX_95th_NVG_Trooper";
-            Type = "Cameras";
+            Type = "Auspecs";
             Variant = "One";
         };
 	};
 
+	class FIG_SniperNVGs;
+	class AUX_95th_FIG_SniperNVGs: FIG_SniperNVGs {
+		displayName="[95th] Trooper Stuff";
+		// displayName="[95th] Auspecs Camera";
+		visionMode[]={};
+		class XtdGearInfo {
+            model = "AUX_95th_NVG_Trooper";
+            Type = "Auspecs";
+            Variant = "Two";
+        };
+	};
+
 	// Goggles
-	class FIG_CadianGogglesUp;
-	class AUX_95th_FIG_CadianGogglesUp: FIG_CadianGogglesUp {
+	class FIG_VitrianGogglesUpNVG;
+	class AUX_95th_FIG_VitrianGogglesUpNVG: FIG_VitrianGogglesUpNVG {
 		displayName="[95th] Trooper Stuff";
 		// displayName="[95th] Goggles (Up)";
 		visionMode[]={};
@@ -525,8 +565,8 @@ class CfgWeapons {
         };
 	};
 
-	class FIG_CadianGogglesDown;
-	class AUX_95th_FIG_CadianGogglesDown: FIG_CadianGogglesDown {
+	class FIG_VitrianGogglesDownNVG;
+	class AUX_95th_FIG_VitrianGogglesDownNVG: FIG_VitrianGogglesDownNVG {
 		displayName="[95th] Trooper Stuff";
 		// displayName="[95th] Goggles (Down)";
 		visionMode[]={};
@@ -534,116 +574,6 @@ class CfgWeapons {
             model = "AUX_95th_NVG_Trooper";
             Type = "Goggles";
             Variant = "Two";
-        };
-	};
-
-	// Bionic Eyes
-	class ic_bionicEye;
-	class AUX_95th_ic_bionicEye: ic_bionicEye {
-		displayName="[95th] Reward Stuff";
-		// displayName="[95th] Bionic Eye (Variant 1)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Reward";
-            Type = "BionicEye";
-            Variant = "One";
-        };
-	};
-
-	class TIOW_Bionic_Eye_2;
-	class AUX_95th_TIOW_Bionic_Eye_2: TIOW_Bionic_Eye_2 {
-		displayName="[95th] Reward Stuff";
-		// displayName="[95th] Bionic Eye (Variant 2)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Reward";
-            Type = "BionicEye";
-            Variant = "Two";
-        };
-	};
-
-	class TIOW_Bionic_Eye_2_Green;
-	class AUX_95th_TIOW_Bionic_Eye_2_Green: TIOW_Bionic_Eye_2_Green {
-		displayName="[95th] Reward Stuff";
-		// displayName="[95th] Bionic Eye (Variant 3)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Reward";
-            Type = "BionicEye";
-            Variant = "Three";
-        };
-	};
-
-	class TIOW_Bionic_Eye;
-	class AUX_95th_TIOW_Bionic_Eye: TIOW_Bionic_Eye {
-		displayName="[95th] Reward Stuff";
-		// displayName="[95th] Bionic Eye (Variant 4)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Reward";
-            Type = "BionicEye";
-            Variant = "Four";
-        };
-	};
-	
-	class TIOW_Bionic_Eye_Green;
-	class AUX_95th_TIOW_Bionic_Eye_Green: TIOW_Bionic_Eye_Green {
-		displayName="[95th] Reward Stuff";
-		// displayName="[95th] Bionic Eye (Variant 5)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Reward";
-            Type = "BionicEye";
-            Variant = "Five";
-        };
-	};
-	
-	// Chestwear
-	class ic_Cadian_Extra4_NVG;
-	class AUX_95th_ic_Cadian_Extra4_NVG: ic_Cadian_Extra4_NVG {
-		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 1)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Trooper";
-            Type = "Chestwear";
-            Variant = "One";
-        };
-	};
-
-	class ic_Cadian_Extra4V2_NVG;
-	class AUX_95th_ic_Cadian_Extra4V2_NVG: ic_Cadian_Extra4V2_NVG {
-		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 2)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Trooper";
-            Type = "Chestwear";
-            Variant = "Two";
-        };
-	};
-
-	class ic_Cadian_Extra4V3_NVG;
-	class AUX_95th_ic_Cadian_Extra4V3_NVG: ic_Cadian_Extra4V3_NVG {
-		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 3)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Trooper";
-            Type = "Chestwear";
-            Variant = "Three";
-        };
-	};
-
-	class ic_Cadian_Extra4V4_NVG;
-	class AUX_95th_ic_Cadian_Extra4V4_NVG: ic_Cadian_Extra4V4_NVG {
-		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 4)";
-		visionMode[]={};
-		class XtdGearInfo {
-            model = "AUX_95th_NVG_Trooper";
-            Type = "Chestwear";
-            Variant = "Four";
         };
 	};
 
@@ -668,6 +598,20 @@ class CfgWeapons {
             model = "AUX_95th_NVG_Trooper";
             Type = "Chestwear";
             Variant = "Seven";
+        };
+	};
+
+	//Narth
+	
+	class WBK_Narth_3;
+	class AUX_95th_WBK_Narth_3: WBK_Narth_3 {
+		displayName="[95th] Medicae Reward";
+		// displayName = "[95th] Narth";
+		visionMode[]={};
+		class XtdGearInfo {
+            model = "AUX_95th_NVG_Reward";
+            Type = "Narth";
+            Variant = "One";
         };
 	};
 
@@ -744,8 +688,8 @@ class CfgGlasses {
 	};
 
 	// Goggles
-	class FIG_CadianGogglesDownFW;
-	class AUX_95th_FIG_CadianGogglesDownFW: FIG_CadianGogglesDownFW {
+	class FIG_VitrianGogglesDown;
+	class AUX_95th_FIG_VitrianGogglesDown: FIG_VitrianGogglesDown {
 		displayName="[95th] Trooper Stuff";
 		// displayName = "[95th] Goggles (Down)";
 		class XtdGearInfo {
@@ -755,8 +699,8 @@ class CfgGlasses {
         };
 	};
 
-	class FIG_CadianGogglesUpFW;
-	class AUX_95th_FIG_CadianGogglesUpFW: FIG_CadianGogglesUpFW {
+	class FIG_VitrianGogglesUp;
+	class AUX_95th_FIG_VitrianGogglesUp: FIG_VitrianGogglesUp {
 		displayName="[95th] Trooper Stuff";
 		// displayName = "[95th] Goggles (Up)";
 		class XtdGearInfo {
@@ -836,10 +780,11 @@ class CfgGlasses {
 	};
 
 	// Chest Pouches
-	class ic_Cadian_Extra4;
-	class AUX_95th_ic_Cadian_Extra4: ic_Cadian_Extra4 {
+
+	class FIG_CadianWebbing2;
+	class AUX_95th_FIG_CadianWebbing2: FIG_CadianWebbing2 {
 		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 1)";
+		// displayName = "[95th] Chestwear (Webbing)";
 		class XtdGearInfo {
             model = "AUX_95th_Glasses_Trooper";
             Type = "Chestwear";
@@ -847,10 +792,10 @@ class CfgGlasses {
         };
 	};
 
-	class ic_Cadian_Extra4V2;
-	class AUX_95th_ic_Cadian_Extra4V2: ic_Cadian_Extra4V2 {
+	class FIG_CadianWebbing3;
+	class AUX_95th_FIG_CadianWebbing3: FIG_CadianWebbing3 {
 		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 2)";
+		// displayName = "[95th] Chestwear (Webbing)";
 		class XtdGearInfo {
             model = "AUX_95th_Glasses_Trooper";
             Type = "Chestwear";
@@ -858,10 +803,10 @@ class CfgGlasses {
         };
 	};
 
-	class ic_Cadian_Extra4V3;
-	class AUX_95th_ic_Cadian_Extra4V3: ic_Cadian_Extra4V3 {
+	class FIG_Bandolier;
+	class AUX_95th_FIG_Bandolier: FIG_Bandolier {
 		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 3)";
+		// displayName = "[95th] Bandolier";
 		class XtdGearInfo {
             model = "AUX_95th_Glasses_Trooper";
             Type = "Chestwear";
@@ -869,10 +814,10 @@ class CfgGlasses {
         };
 	};
 
-	class ic_Cadian_Extra4V4;
-	class AUX_95th_ic_Cadian_Extra4V4: ic_Cadian_Extra4V4 {
+	class FIG_BandolierLP;
+	class AUX_95th_FIG_BandolierLP: FIG_BandolierLP {
 		displayName="[95th] Trooper Stuff";
-		// displayName = "[95th] Chestwear (Variant 4)";
+		// displayName = "[95th] Bandolier (Leg Pouch)";
 		class XtdGearInfo {
             model = "AUX_95th_Glasses_Trooper";
             Type = "Chestwear";
@@ -913,26 +858,205 @@ class CfgGlasses {
         };
 	};
 
+	class FIG_LegPouch;
+	class AUX_95th_FIG_LegPouch: FIG_LegPouch {
+		displayName="[95th] Trooper Stuff";
+		// displayName = "[95th] Leg Pouch";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Trooper";
+            Type = "Chestwear";
+            Variant = "Eight";
+        };
+	};
+
+	class ic_EODPadding;
+	class AUX_95th_ic_EODPadding: ic_EODPadding {
+		displayName="[95th] Trooper Stuff";
+		// displayName = "[95th] EOD Padding";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Trooper";
+            Type = "Chestwear";
+            Variant = "Nine";
+        };
+	};
+
+	class ic_AjaxCovers2_2;
+	class AUX_95th_ic_AjaxCovers2_2: ic_AjaxCovers2_2 {
+		displayName="[95th] Trooper Stuff";
+		// displayName = "[95th] Leg Pouch";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Trooper";
+            Type = "Chestwear";
+            Variant = "Ten";
+        };
+	};
+
+	//Gasmasks
+	
+	class Ren_Gasmask_01;
+	class AUX_95th_Ren_Gasmask_01: Ren_Gasmask_01 {
+		displayName="[95th] Trooper Stuff";
+		// displayName = "[95th] Gasmask";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Trooper";
+            Type = "Gasmask";
+            Variant = "One";
+        };
+	};
+	
+	class ic_moebianGasmask;
+	class AUX_95th_ic_moebianGasmask: ic_moebianGasmask {
+		displayName="[95th] Trooper Stuff";
+		// displayName = "[95th] Gasmask";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Trooper";
+            Type = "Gasmask";
+            Variant = "Two";
+        };
+	};
+
+	class DKOKGrenMask82nd;
+	class AUX_95th_DKOKGrenMask82nd: DKOKGrenMask82nd {
+		displayName="[95th] Trooper Stuff";
+		// displayName = "[95th] Gasmask";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Trooper";
+            Type = "Gasmask";
+            Variant = "Three";
+        };
+	};
+
 	// Misc
-	class FIG_OfficerGorget;
-	class AUX_95th_FIG_OfficerGorget: FIG_OfficerGorget {
+	class FIG_ChaosSkullStandard;
+	class AUX_95th_FIG_ChaosSkullStandard: FIG_ChaosSkullStandard {
 		displayName="[95th] Officer Stuff";
-		// displayName = "[95th] Officer (Gorget)";
+		// displayName = "[95th] Officer (Skulls)";
 		class XtdGearInfo {
             model = "AUX_95th_Glasses_NCO";
-            Type = "Gorget";
+            Type = "Skulls";
             Variant = "One";
         };
 	};
 
-	class IC_cad_rebreather_green;
-	class AUX_95th_IC_cad_rebreather_green: IC_cad_rebreather_green {
+	class FIG_ChaosSkulls;
+	class AUX_95th_FIG_ChaosSkulls: FIG_ChaosSkulls {
+		displayName="[95th] Officer Stuff";
+		// displayName = "[95th] NCO (Skulls)";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_NCO";
+            Type = "Skulls";
+            Variant = "Two";
+        };
+	};
+
+	class FIG_CadianOGMaskFaceWNVGrey;
+	class AUX_95th_FIG_CadianOGMaskFaceWNVGrey: FIG_CadianOGMaskFaceWNVGrey {
 		displayName="[95th] Veteran Stuff";
-		// displayName = "[95th] Mask (No Visor)";
+		// displayName = "[95th] Cadian Mask (No Visor)";
 		class XtdGearInfo {
             model = "AUX_95th_Glasses_Veteran";
             Type = "Mask";
             Variant = "One";
+        };
+	};
+
+	class FIG_CadianOGMaskFaceWGrey;
+	class AUX_95th_FIG_CadianOGMaskFaceWGrey: FIG_CadianOGMaskFaceWGrey {
+		displayName="[95th] Veteran Stuff";
+		// displayName = "[95th] Cadian Mask";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Veteran";
+            Type = "Mask";
+            Variant = "Two";
+        };
+	};
+
+	class ic_thracian_GASMASK;
+	class AUX_95th_ic_thracian_GASMASK: ic_thracian_GASMASK {
+		displayName="[95th] Veteran Stuff";
+		// displayName = "[95th] Thracian Mask (No Visor)";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Veteran";
+            Type = "Mask";
+            Variant = "Three";
+        };
+	};
+
+	class ic_thracian_GASMASK_02;
+	class AUX_95th_ic_thracian_GASMASK_02: ic_thracian_GASMASK_02 {
+		displayName="[95th] Veteran Stuff";
+		// displayName = "[95th] Thracian Mask";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Veteran";
+            Type = "Mask";
+            Variant = "Four";
+        };
+	};
+
+	class TIOW_Cultist_Gasmask;
+	class AUX_95th_TIOW_Cultist_Gasmask: TIOW_Cultist_Gasmask {
+		displayName="[95th] Veteran Stuff";
+		// displayName = "[95th] Cultist Mask";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Veteran";
+            Type = "Mask";
+            Variant = "Five";
+        };
+	};
+
+//Reward Facewear
+	class FIG_MoebianRebreatherNVChaos;
+	class AUX_95th_FIG_MoebianRebreatherNVChaos: FIG_MoebianRebreatherNVChaos {
+		displayName="[95th] Reward Facewear";
+		// displayName = "[95th] Reward Mask1";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Reward";
+            Type = "Mask";
+            Variant = "One";
+        };
+	};
+
+	class FIG_MoebianRebreatherChaos;
+	class AUX_95th_FIG_MoebianRebreatherChaos: FIG_MoebianRebreatherChaos {
+		displayName="[95th] Reward Facewear";
+		// displayName = "[95th] Reward Mask1 (no visor)";
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Reward";
+            Type = "Mask";
+            Variant = "Two";
+        };
+	};
+	
+	class PJ_Scion_mask_01;
+	class AUX_95th_PJ_Scion_mask_01: PJ_Scion_mask_01 {
+		displayName="[95th] Reward Facewear";
+		// displayName = "[95th] Reward Mask2;
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Reward";
+            Type = "Mask";
+            Variant = "Three";
+        };
+	};
+		
+	class PJ_Scion_mask_02;
+	class AUX_95th_PJ_Scion_mask_02: PJ_Scion_mask_02 {
+		displayName="[95th] Reward Facewear";
+		// displayName = "[95th] Reward Mask2(w/tubes);
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Reward";
+            Type = "Mask";
+            Variant = "Four";
+        };
+	};
+		
+	class PJ_Scion_mask_03;
+	class AUX_95th_PJ_Scion_mask_03: PJ_Scion_mask_03 {
+		displayName="[95th] Reward Facewear";
+		// displayName = "[95th] Reward Mask2(w/tubes2);
+		class XtdGearInfo {
+            model = "AUX_95th_Glasses_Reward";
+            Type = "Mask";
+            Variant = "Five";
         };
 	};
 };
