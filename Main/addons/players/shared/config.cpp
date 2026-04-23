@@ -915,8 +915,8 @@ class CfgGlasses {
         };
 	};
 
-	class DKOKGrenMask82nd;
-	class AUX_95th_DKOKGrenMask82nd: DKOKGrenMask82nd {
+	class DKOKGrenMask1489th;
+	class AUX_95th_DKOKGrenMask1489th: DKOKGrenMask1489th {
 		displayName="[95th] Trooper Stuff";
 		// displayName = "[95th] Gasmask";
 		class XtdGearInfo {
