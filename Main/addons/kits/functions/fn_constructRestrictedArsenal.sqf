@@ -11,18 +11,21 @@ AUX_95th_Arsenal_Whitelisted_Explosives = ["TIOW_melta_bomb_placeable_Mag", "IC_
 AUX_95th_Arsenal_Whitelisted_Magazines = ["FIG_LasGun_Standart", "FIG_LasGun_HotShot", "FIG_AutogunMag", "Fig_BolterMag", "FIG_HeavyStubberMag", "DK_PlasmaGun_Flask",
     "DK_Overcharge_PlasmaGun_Flask", "toh_hs_100rnd_mag", "toh_hs_30rnd_mag", "AP_Drob_mag", "TIOW_Krieg_Flamer_mag", "TIOW_Krieg_GL_Buck_mag", "TIOW_Krieg_GL_Flare_mag",
     "TIOW_Krieg_GL_Frag_mag", "TIOW_Krieg_GL_Krak_mag", "TIOW_Krieg_GL_Smoke_mag", "TIOW_Meltagun_Mag", "TIOW_IGBoltPistol_Mag", "TIOW_IGPlasmaPistol_OC_Mag",
-    "TIOW_IGPlasmaPistol_Mag", "FIG_Recoilless_HEAT_F", "FIG_Recoilless_HE_F", "BG_AT_Mag_Tandem", "FIG_LasPistol_Standart", "ic_30rnd_825_Tracer_rifleMag"];
+    "TIOW_IGPlasmaPistol_Mag", "FIG_Recoilless_HEAT_F", "FIG_Recoilless_HE_F", "BG_AT_Mag_Tandem", "FIG_LasPistol_Standart", "ic_30rnd_825_Tracer_rifleMag", "AP_Drob_drum"];
 
-AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet", "bipod_01_F_blk", "FIG_LasGun_LongLas", "FIG_LongLasWrapChaos"];
+AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet", "FIG_M36ChaosBayonet", "bipod_01_F_blk", "FIG_LasGun_LongLas", "FIG_LongLasWrapChaos", "FIG_LongLasWrap"];
 
 AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_cad_magnoculars", "ItemcTab", "ItemMicroDAGR", "TFAR_anprc152", "FIG_IronCultHelmNM",
-    "FIG_IronCultHelm", "Cad_Tnk_Helm", "FIG_IronChudUniform_U_B", "FIG_IronCultArmourLight", "FIG_IronCultArmour", "FIG_IronCultArmourV2", "FIG_ChaosSkullStandard",
-    "FIG_ChaosSkullStandardNVG", "FIG_ChaosSkulls", "FIG_ChaosSkullsNVG", "FIG_CadianOGMaskFaceWNVGrey", "FIG_CadianOGMaskFaceWGrey", "ic_thracian_GASMASK_02",
-    "ic_thracian_GASMASK", "TIOW_Cultist_Gasmask", "FIG_VitrianGogglesDown", "FIG_VitrianGogglesUp", "FIG_VitrianGogglesDownNVG", "FIG_VitrianGogglesUpNVG",
-    "FIG_CadianHeadwrapGrey", "FIG_CadianHeadwrapV2Grey", "ic_AjaxCovers1", "FIG_TanithCloak", "AUX_95th_FIG_CadianWebbing", "AUX_95th_ic_cad_CamoNetBodyV2",
-    "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_Cadian_MedicPouches", "AUX_95th_ic_Cadian_MedicaePouches_NVG", "AUX_95th_ic_Cadian_Extra4V5", "AUX_95th_ic_Cadian_Extra4V5_NVG",
-    "FIG_CadianWebbing", "FIG_CadianWebbing2", "FIG_CadianWebbing3", "FIG_Bandolier", "FIG_BandolierLP", "FIG_LegPouch", "Merc_Punch_G", "Merc_Punch_NV", "ic_EODPadding",
-    "ic_AjaxCovers2_2", "ic_moebianGasmask31st", "FIG_SniperNVGs"];
+    "FIG_IronCultHelm", "Cad_Tnk_Helm", "FIG_IronChudUniform_U_B", "FIG_IronCultArmourLight", "FIG_IronCultArmour", "FIG_IronCultArmourV2", "AUX_95th_FIG_ChaosSkullStandard",
+    "AUX_95th_FIG_ChaosSkulls", "AUX_95th_FIG_MoebianRebreatherNVChaos", "AUX_95th_FIG_MoebianRebreatherChaos", "AUX_95th_PJ_Scion_mask_01", "AUX_95th_PJ_Scion_mask_02",
+    "AUX_95th_PJ_Scion_mask_03", "AUX_95th_FIG_CadianHeadwrapV2", "AUX_95th_FIG_FIG_CadianHeadwrap", "AUX_95th_FIG_G_Blindfold_01_black_F", "AUX_95th_FIG_G_Bandanna_oli",
+    "AUX_95th_FIG_CadianOGMaskFaceWNVGrey", "AUX_95th_FIG_CadianOGMaskFaceWGrey", "AUX_95th_ic_thracian_GASMASK", "AUX_95th_ic_thracian_GASMASK_02", "AUX_95th_TIOW_Cultist_Gasmask",
+    "AUX_95th_FIG_CadianWebbing2", "AUX_95th_FIG_CadianWebbing3", "AUX_95th_FIG_Bandolier", "AUX_95th_FIG_BandolierLP", "AUX_95th_ic_Cadian_Extra4V5", "AUX_95th_FIG_CadianWebbing",
+    "AUX_95th_ic_Cadian_MedicPouches", "AUX_95th_FIG_LegPouch", "AUX_95th_ic_EODPadding", "AUX_95th_ic_AjaxCovers2_2", "AUX_95th_FIG_VitrianGogglesUp", "AUX_95th_FIG_VitrianGogglesDown",
+    "AUX_95th_immersion_cigs_cigar0", "AUX_95th_murshun_cigs_cig0", "AUX_95th_TIOW_F_Gloves_Brown", "AUX_95th_TIOW_IG_Headset", "AUX_95th_ic_Headset", "AUX_95th_Ren_Gasmask_01",
+    "AUX_95th_ic_moebianGasmask", "AUX_95th_DKOKGrenMask82nd", "AUX_95th_WBK_Narth_3", "AUX_95th_ic_Cadian_Extra4V5_NVG", "AUX_95th_ic_Cadian_MedicaePouches_NVG",
+    "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_cad_CamoNetBodyV2", "AUX_95th_FIG_VitrianGogglesDownNVG", "AUX_95th_FIG_VitrianGogglesUpNVG", "AUX_95th_immersion_cigs_cigar0_nv",
+    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_FIG_SniperNVGs", "AUX_95th_FIG_CadianAuspecsGrey"];
 
 AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_TXA","ACE_tourniquet","ACE_surgicalKit","kat_stethoscope","ACE_splint","kat_scalpel","kat_retractor","kat_Pulseoximeter","ACE_plasmaIV",
