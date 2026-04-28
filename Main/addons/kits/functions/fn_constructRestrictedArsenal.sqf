@@ -15,8 +15,8 @@ AUX_95th_Arsenal_Whitelisted_Magazines = ["FIG_LasGun_Standart", "FIG_LasGun_Hot
 
 AUX_95th_Arsenal_Whitelisted_Attachments = ["FIG_M36Bayonet", "FIG_M36ChaosBayonet", "bipod_01_F_blk", "FIG_LasGun_LongLas", "FIG_LongLasWrapChaos", "FIG_LongLasWrap"];
 
-AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_cad_magnoculars", "ItemcTab", "ItemMicroDAGR", "TFAR_anprc152", "FIG_IronCultHelmNM",
-    "FIG_IronCultHelm", "Cad_Tnk_Helm", "FIG_IronChudUniform_U_B", "FIG_IronCultArmourLight", "FIG_IronCultArmour", "FIG_IronCultArmourV2", "AUX_95th_FIG_ChaosSkullStandard",
+AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_cad_magnoculars", "ItemcTab", "ItemMicroDAGR", "TFAR_anprc152",
+    "FIG_IronChudUniform_U_B", "AUX_95th_FIG_ChaosSkullStandard",
     "AUX_95th_FIG_ChaosSkulls", "AUX_95th_FIG_MoebianRebreatherNVChaos", "AUX_95th_FIG_MoebianRebreatherChaos", "AUX_95th_PJ_Scion_mask_01", "AUX_95th_PJ_Scion_mask_02",
     "AUX_95th_PJ_Scion_mask_03", "AUX_95th_FIG_CadianHeadwrapV2", "AUX_95th_FIG_FIG_CadianHeadwrap", "AUX_95th_FIG_G_Blindfold_01_black_F", "AUX_95th_FIG_G_Bandanna_oli",
     "AUX_95th_FIG_CadianOGMaskFaceWNVGrey", "AUX_95th_FIG_CadianOGMaskFaceWGrey", "AUX_95th_ic_thracian_GASMASK", "AUX_95th_ic_thracian_GASMASK_02", "AUX_95th_TIOW_Cultist_Gasmask",

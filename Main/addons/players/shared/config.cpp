@@ -411,7 +411,7 @@ class XtdGearModels {
 		};
 
 		class AUX_95th_Glasses_Veteran {
-			label = "Veteran Facewear";
+			label = "Senior Facewear";
 			author = "95th Aux Team";
 			options[] = {"Type", "Variant"};
 
