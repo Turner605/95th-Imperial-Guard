@@ -36,11 +36,101 @@
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
+
+    class FIG_CadianBackpack2Light;
+    class AUX_95th_Backpack_Light_Two_##PLAYER_NAME : FIG_CadianBackpack2Light {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Light";
+            Variant = QUOTE(Two);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+    
+    class FIG_CadianBackpack2LightCable;
+    class AUX_95th_Backpack_Light_Three_##PLAYER_NAME : FIG_CadianBackpack2LightCable {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Light";
+            Variant = QUOTE(Three);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+        
+    class FIG_CadianBackpack2LightKnife;
+    class AUX_95th_Backpack_Light_Four_##PLAYER_NAME : FIG_CadianBackpack2LightKnife {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Light";
+            Variant = QUOTE(Four);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+            
+    class FIG_CadianBackpack2LightCableKnife;
+    class AUX_95th_Backpack_Light_Five_##PLAYER_NAME : FIG_CadianBackpack2LightCableKnife {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Light";
+            Variant = QUOTE(Five);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+                
+    class FIG_ChaosBackpack;
+    class AUX_95th_Backpack_Light_Six_##PLAYER_NAME : FIG_ChaosBackpack {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Light";
+            Variant = QUOTE(Six);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
 #endif
 
 #if BACKPACK_STANDARD == 1
-    class ic_CadianBackpackV1;
-    class AUX_95th_Backpack_Standard_One_##PLAYER_NAME : ic_CadianBackpackV1 {
+    class FIG_CadianBackpack2;
+    class AUX_95th_Backpack_Standard_One_##PLAYER_NAME : FIG_CadianBackpack2 {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
 	     maximumLoad=150;
@@ -57,8 +147,8 @@
         };
     };
 
-    class ic_CadianBackpackV2;
-    class AUX_95th_Backpack_Standard_Two_##PLAYER_NAME : ic_CadianBackpackV2 {
+    class FIG_CadianBackpack2BRSH;
+    class AUX_95th_Backpack_Standard_Two_##PLAYER_NAME : FIG_CadianBackpack2BRSH {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
 	     maximumLoad=150;
@@ -75,8 +165,8 @@
         };
     };
 
-    class ic_CadianBackpackV4;
-    class AUX_95th_Backpack_Standard_Three_##PLAYER_NAME : ic_CadianBackpackV4 {
+    class FIG_CadianBackpack2BR;
+    class AUX_95th_Backpack_Standard_Three_##PLAYER_NAME : FIG_CadianBackpack2BR {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
 	     maximumLoad=150;
@@ -92,14 +182,68 @@
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
+    
+    class FIG_CadianBackpack2BRSHK;
+    class AUX_95th_Backpack_Standard_Four_##PLAYER_NAME : FIG_CadianBackpack2BRSHK {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Standard";
+            Variant = QUOTE(Four);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+        
+    class FIG_CadianBackpack2K;
+    class AUX_95th_Backpack_Standard_Five_##PLAYER_NAME : FIG_CadianBackpack2K {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Standard";
+            Variant = QUOTE(Five);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+            
+    class FIG_CadianBackpack2KSH;
+    class AUX_95th_Backpack_Standard_Six_##PLAYER_NAME : FIG_CadianBackpack2KSH {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Standard";
+            Variant = QUOTE(Six);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
 #endif
 
 #if BACKPACK_MEDIC == 1
-    class ic_CadianBackpackV7;
-    class AUX_95th_Backpack_Medic_##PLAYER_NAME : ic_CadianBackpackV7 {
+    class FIG_CadianBackpack2Medicae;
+    class AUX_95th_Backpack_Medic_##PLAYER_NAME : FIG_CadianBackpack2Medicae {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	     maximumLoad=275;
+	     maximumLoad=300;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -115,11 +259,11 @@
 #endif
 
 #if BACKPACK_HEAVY == 1
-    class ic_CadianBackpackV8;
-    class AUX_95th_Backpack_Heavy_##PLAYER_NAME : ic_CadianBackpackV8 {
+    class FIG_CadianBackpack2BRSHP;
+    class AUX_95th_Backpack_Heavy_##PLAYER_NAME : FIG_CadianBackpack2BRSHP {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	     maximumLoad=150;
+	     maximumLoad=300;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -132,14 +276,12 @@
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
-#endif
 
-#if BACKPACK_ENGINEER == 1
-    class ic_CarryAll;
-    class AUX_95th_Backpack_Engineer_##PLAYER_NAME : ic_CarryAll {
+    class FIG_CadianBackpack2BRSHPK;
+    class AUX_95th_Backpack_Heavy_Two_##PLAYER_NAME : FIG_CadianBackpack2BRSHPK {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	     maximumLoad=275;
+	     maximumLoad=300;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
@@ -147,16 +289,16 @@
         tf_hasLRradio=0;
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
-            Type = "Engineer";
-            Variant = QUOTE(One);
+            Type = "Heavy";
+            Variant = QUOTE(Two);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
-#if BACKPACK_AT == 1
-    class ic_cad_RocketPack_NoStraps;
-    class AUX_95th_Backpack_AT_##PLAYER_NAME : ic_cad_RocketPack_NoStraps {
+#if BACKPACK_POWER == 1
+    class FIG_PowerpackMoebianChaos;
+    class AUX_95th_Backpack_Power_One_##PLAYER_NAME : FIG_PowerpackMoebianChaos {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
 	     maximumLoad=150;
@@ -167,16 +309,72 @@
         tf_hasLRradio=0;
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
-            Type = "AT";
+            Type = "Power";
             Variant = QUOTE(One);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+
+    class FIG_PowerpackWCableMoebianChaos;
+    class AUX_95th_Backpack_Power_Two_##PLAYER_NAME : FIG_PowerpackWCableMoebianChaos {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Power";
+            Variant = QUOTE(Two);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+#endif
+
+#if BACKPACK_CHEST == 1
+    class FIG_BandolierBP;
+    class AUX_95th_Backpack_Chest_One_##PLAYER_NAME : FIG_BandolierBP {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Chest";
+            Variant = QUOTE(One);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+    };
+
+    class FIG_BandolierLPBP;
+    class AUX_95th_Backpack_Chest_Two_##PLAYER_NAME : FIG_BandolierLPBP {
+        author="95th Aux Team";
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
+	     maximumLoad=150;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        // hiddenSelectionsTextures[]={
+        //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
+        // };
+        tf_hasLRradio=0;
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
+            Type = "Chest";
+            Variant = QUOTE(Two);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
     };
 #endif
 
 #if BACKPACK_RTO == 1
-    class TIOW_IG_Vox_Caster;
-    class AUX_95th_Backpack_RTO_##PLAYER_NAME : TIOW_IG_Vox_Caster {
+    class FIG_CadianVoxBackpackMoebianChaos;
+    class AUX_95th_Backpack_RTO_##PLAYER_NAME : FIG_CadianVoxBackpackMoebianChaos {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
 	    maximumLoad=100;

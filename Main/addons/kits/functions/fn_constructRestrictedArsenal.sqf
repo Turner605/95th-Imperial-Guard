@@ -40,11 +40,8 @@ AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_oxygenTank_150", "kat_oxygenTank_300", "kat_ultrasound", "kat_epinephrineIV", "kat_nasal", "kat_Pervitin", "kat_phenylephrineAuto", "kat_reboa", "kat_coag_sense" 
 ];
 
-AUX_95th_Arsenal_Whitelisted_Backpacks = ["Dos_PP_UAV_1", "CadianAABackpack", "CadianATBackpack", "CadianMortarBackpack", "FIG_CadianBackpackACPCMOB6", "FIG_CadianBackpackHBPCMOB6",
-    "CadianLascannonBackpack", "CadianMultilasBackpack", "FIG_BandolierBP", "FIG_BandolierLPBP", "FIG_CadianBackpack1", "FIG_ChaosBackpack", "FIG_CadianBackpack2Light",
-    "FIG_CadianBackpack2LightCable", "FIG_CadianBackpack2LightKnife", "FIG_CadianBackpack2LightCableKnife", "FIG_PowerpackMoebianChaos", "FIG_PowerpackWCableMoebianChaos",
-    "FIG_CadianVoxBackpackMoebianChaos", "FIG_CadianBackpack2", "FIG_CadianBackpack2BRSH", "FIG_CadianBackpack2BR", "FIG_CadianBackpack2BRSHK", "FIG_CadianBackpack2BRSHP",
-    "FIG_CadianBackpack2BRSHPK", "FIG_CadianBackpack2K", "FIG_CadianBackpack2KSH", "FIG_CadianBackpack2Medicae"];
+AUX_95th_Arsenal_Whitelisted_Backpacks = ["CadianAABackpack", "CadianATBackpack", "CadianMortarBackpack", "FIG_CadianBackpackACPCMOB6", "FIG_CadianBackpackHBPCMOB6",
+    "CadianLascannonBackpack", "CadianMultilasBackpack"];
 
 AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ACE_wirecutter","ToolKit","ACE_Tripod","ACE_SpraypaintRed","ACE_SpraypaintGreen","ACE_SpraypaintBlue","ACE_SpraypaintBlack","ACE_SpottingScope",
