@@ -1,14 +1,14 @@
 AUX_95th_Arsenal_Whitelisted_Weapons = ["FIG_M36Kantrael_Moebian6th", "FIG_M36VossFoldedChaos", "FIG_M36VossChaos", "FIG_NemessisChaos", "FIG_M36Kantrael_ChaosNeutral",
-    "FIG_M36KantraelChaos", "FIG_AutogunGrey", "FIG_Bolter", "FIG_LongLasChaos", "FIG_HeavyStubberK", "TIOW_IG_Plasmagun_01", "ICP_LMG_01_imp", 
+    "FIG_M36KantraelChaos", "FIG_Bolter", "FIG_LongLasChaos", "FIG_HeavyStubberK", "TIOW_IG_Plasmagun_01", "ICP_LMG_01_imp", 
     "shotgun_BG_1","TIOW_IG_Flamer", "TIOW_KriegLauncher", "TIOW_MeltaGun_01", "Shovel_Russian_Rotated", "FIG_Knife", "FIG_KnifeRotated", "FIG_KriegAxe",
     "FIG_KriegMace", "FIG_PowerSword", "FIG_Laspistol", "TIOW_Bolt_Pistol2", "TIOW_Guard_Plasma_Pistol", "WBK_PowerMace", "WBK_HumanChainsword_1", "WBK_HumanChainsword_2",
-    "WBK_ChainAxe", "Web_Melee_Chain_Axe_H3F", "WBK_War_Hammer", "FIG_PowerSword", "FIG_ATRecoillessChaos", "BG_Launcher_AT_base", "ic_cad_autogun"];
+    "WBK_ChainAxe", "Web_Melee_Chain_Axe_H3F", "WBK_War_Hammer", "FIG_PowerSword", "FIG_ATRecoillessChaos", "BG_Launcher_AT_base", "ic_cad_autogun", "Cadian_95th_Banner_Weapon"];
 
 AUX_95th_Arsenal_Whitelisted_Throwables = ["ToH_IG_Frag_Grenade", "ToH_IG_Krak_Grenade", "ToH_IG_Smoke_Grenade"];
 
 AUX_95th_Arsenal_Whitelisted_Explosives = ["TIOW_melta_bomb_placeable_Mag", "IC_CAD_CHARGE_placeable_mag"];
 
-AUX_95th_Arsenal_Whitelisted_Magazines = ["FIG_LasGun_Standart", "FIG_LasGun_HotShot", "FIG_AutogunMag", "Fig_BolterMag", "FIG_HeavyStubberMag", "DK_PlasmaGun_Flask",
+AUX_95th_Arsenal_Whitelisted_Magazines = ["FIG_LasGun_Standart", "FIG_LasGun_HotShot", "Fig_BolterMag", "FIG_HeavyStubberMag", "DK_PlasmaGun_Flask",
     "DK_Overcharge_PlasmaGun_Flask", "toh_hs_100rnd_mag", "toh_hs_30rnd_mag", "AP_Drob_mag", "TIOW_Krieg_Flamer_mag", "TIOW_Krieg_GL_Buck_mag", "TIOW_Krieg_GL_Flare_mag",
     "TIOW_Krieg_GL_Frag_mag", "TIOW_Krieg_GL_Krak_mag", "TIOW_Krieg_GL_Smoke_mag", "TIOW_Meltagun_Mag", "TIOW_IGBoltPistol_Mag", "TIOW_IGPlasmaPistol_OC_Mag",
     "TIOW_IGPlasmaPistol_Mag", "FIG_Recoilless_HEAT_F", "FIG_Recoilless_HE_F", "BG_AT_Mag_Tandem", "FIG_LasPistol_Standart", "ic_30rnd_825_Tracer_rifleMag", "AP_Drob_drum"];
@@ -51,7 +51,7 @@ AUX_95th_Arsenal_Whitelisted_Equipment = [
 	"ace_marker_flags_white","ace_marker_flags_yellow","ACE_microDAGR","MineDetector","ACE_HuntIR_monitor","ACE_RangeTable_82mm",
 	"rw_canistra","ACE_RangeCard",
     "WBK_HeadLampItem_Double", "WBK_HeadLampItem_Narrow", "WBK_HeadLampItem_Long", "WBK_HeadLampItem", "WBK_ShoulderLampItem_Regular", "WBK_ShoulderLampItem_Strong",
-    "WBK_ShoulderLampItem_Weak", "WBK_NarthBlood", "TFAR_anprc152"
+    "WBK_ShoulderLampItem_Weak", "WBK_NarthBlood", "TFAR_anprc152", "tsp_sling_1point", "tsp_sling", "tsp_sling_3point", "tsp_sling_lanyard"
 ];
 
 AUX_95th_Arsenal_Whitelisted_All = (
