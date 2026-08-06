@@ -28,6 +28,8 @@
 #define BACKPACK_ENGINEER 0
 #define BACKPACK_AT 0
 #define BACKPACK_RTO 0
+#define BACKPACK_POWER 0
+#define BACKPACK_CHEST 0
 
 // VEST OPTIONS 0 (False), 1 (True)
 #define VEST_LIGHT_SET 0
