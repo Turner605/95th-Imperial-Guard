@@ -4,7 +4,7 @@ options[] = {"Player", "Type", "Variant"};
 class Type {
 	labels = "Type";
 	alwaysSelectable = 1;
-	values[] = {"Invisible", "Light", "Standard", "Medic", "Heavy", "Chest", "Power", "RTO", "Weapon"};
+	values[] = {"Invisible", "Light", "Standard", "Medic", "Heavy", "Power", "RTO", "Chest", "Weapon"};
 	class Invisible { label = "Invisible"; description = "Invisible Bag"; };
 	class Light { label = "Light"; description = "Light Bag"; };
 	class Standard { label = "Standard"; description = "Standard Bag"; };
