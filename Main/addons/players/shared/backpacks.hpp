@@ -306,13 +306,16 @@
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
         // };
-        tf_hasLRradio=0;
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Power";
             Variant = QUOTE(One);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=16000;
+        tf_subtype="digital_lr";
     };
 
     class FIG_PowerpackWCableMoebianChaos;
@@ -324,13 +327,16 @@
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
         // };
-        tf_hasLRradio=0;
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Backpacks_Squad,SQUAD_KEY));
             Type = "Power";
             Variant = QUOTE(Two);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
+        tf_encryptionCode="tf_west_radio_code";
+        tf_hasLRradio=1;
+        tf_range=16000;
+        tf_subtype="digital_lr";
     };
 #endif
 
@@ -377,7 +383,7 @@
     class AUX_95th_Backpack_RTO_##PLAYER_NAME : FIG_CadianVoxBackpackMoebianChaos {
         author="95th Aux Team";
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Backpacks); 
-	    maximumLoad=100;
+	    maximumLoad=150;
         picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
         // hiddenSelectionsTextures[]={
         //     QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\backpacks\belt\light.paa) 
