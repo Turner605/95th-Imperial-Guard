@@ -33,16 +33,32 @@ private _macroArray = [
 
 
     ["AUX_95th_Backpack_Invisible_", BACKPACK_INVISIBLE],
+
     ["AUX_95th_Backpack_Light_", BACKPACK_LIGHT],
+    ["AUX_95th_Backpack_Light_Two_", BACKPACK_LIGHT],
+    ["AUX_95th_Backpack_Light_Three_", BACKPACK_LIGHT],
+    ["AUX_95th_Backpack_Light_Four_", BACKPACK_LIGHT],
+    ["AUX_95th_Backpack_Light_Five_", BACKPACK_LIGHT],
+    ["AUX_95th_Backpack_Light_Six_", BACKPACK_LIGHT],
 
     ["AUX_95th_Backpack_Standard_One_", BACKPACK_STANDARD],
     ["AUX_95th_Backpack_Standard_Two_", BACKPACK_STANDARD],
     ["AUX_95th_Backpack_Standard_Three_", BACKPACK_STANDARD],
+    ["AUX_95th_Backpack_Standard_Four_", BACKPACK_STANDARD],
+    ["AUX_95th_Backpack_Standard_Five_", BACKPACK_STANDARD],
+    ["AUX_95th_Backpack_Standard_Six_", BACKPACK_STANDARD],
 
     ["AUX_95th_Backpack_Medic_", BACKPACK_MEDIC],
+
     ["AUX_95th_Backpack_Heavy_", BACKPACK_HEAVY],
-    ["AUX_95th_Backpack_Engineer_", BACKPACK_ENGINEER],
-    ["AUX_95th_Backpack_AT_", BACKPACK_AT],
+    ["AUX_95th_Backpack_Heavy_Two_", BACKPACK_HEAVY],
+
+    ["AUX_95th_Backpack_Power_One_", BACKPACK_POWER],
+    ["AUX_95th_Backpack_Power_Two_", BACKPACK_POWER],
+
+    ["AUX_95th_Backpack_Chest_One_", BACKPACK_CHEST],
+    ["AUX_95th_Backpack_Chest_Two_", BACKPACK_CHEST],
+
     ["AUX_95th_Backpack_RTO_", BACKPACK_RTO],
 
 
