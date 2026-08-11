@@ -28,7 +28,8 @@ AUX_95th_Arsenal_Whitelisted_Gear = ["ItemMap", "ItemCompass", "ItemWatch", "ic_
     "AUX_95th_immersion_cigs_cigar0", "AUX_95th_murshun_cigs_cig0", "AUX_95th_TIOW_F_Gloves_Brown", "AUX_95th_TIOW_IG_Headset", "AUX_95th_ic_Headset", "AUX_95th_Ren_Gasmask_01",
     "AUX_95th_ic_moebianGasmask", "AUX_95th_DKOKGrenMask82nd", "AUX_95th_WBK_Narth_3", "AUX_95th_ic_Cadian_Extra4V5_NVG", "AUX_95th_ic_Cadian_MedicaePouches_NVG",
     "AUX_95th_ic_cad_CamoNetBody", "AUX_95th_ic_cad_CamoNetBodyV2", "AUX_95th_FIG_VitrianGogglesDownNVG", "AUX_95th_FIG_VitrianGogglesUpNVG", "AUX_95th_immersion_cigs_cigar0_nv",
-    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_FIG_SniperNVGs", "AUX_95th_FIG_CadianAuspecsGrey"];
+    "AUX_95th_murshun_cigs_cig0_nv", "AUX_95th_FIG_SniperNVGs", "AUX_95th_FIG_CadianAuspecsGrey", "FIG_ChaosMoebianArmourV2", "FIG_ChaosMoebianArmourV3", "FIG_ChaosMoebianArmourV2Light",
+    "FIG_ChaosMoebianArmourV3Light"];
 
 AUX_95th_Arsenal_Whitelisted_Medical = [
 	"kat_TXA","ACE_tourniquet","ACE_surgicalKit","kat_stethoscope","ACE_splint","kat_scalpel","kat_retractor","kat_Pulseoximeter","ACE_plasmaIV",
