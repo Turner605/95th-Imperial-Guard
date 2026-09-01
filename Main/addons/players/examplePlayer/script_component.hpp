@@ -10,7 +10,8 @@
 #define HELMET_BASIC 0
 #define HELMET_MASK 0
 #define PATROL_CAP 0
-#define TANKER_CAP 0
+#define TANKER_HEADWEAR 0
+#define PILOT_HEADWEAR 0
 #define NCO_CAP 0
 #define OFFICER_CAP 0
 #define BOONIE_HAT 0

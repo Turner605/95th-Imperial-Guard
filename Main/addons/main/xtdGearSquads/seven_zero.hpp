@@ -1,5 +1,5 @@
 class Player {
-    alwaysSelectable = 0;
+	alwaysSelectable = 1;
     labels = "Player";
     values[] = {};
 };

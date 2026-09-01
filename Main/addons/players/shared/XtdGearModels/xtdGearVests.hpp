@@ -3,7 +3,6 @@ options[] = {"Player", "Type", "Variant"};
 
 class Type {
 	labels = "Type";
-	alwaysSelectable = 1;
 	values[] = {"Light", "Medium", "Heavy"};
 	class Light { label = "Light"; description = "Light Vest"; };
 	class Medium { label = "Medium"; description = "Medium Vest"; };

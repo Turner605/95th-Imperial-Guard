@@ -1,5 +1,5 @@
 class Player {
-    alwaysSelectable = 0;
+	alwaysSelectable = 1;
     labels = "Player";
     values[] = {"Ghost", "Som", "Jinter", "MadHatter", "Sythe", "Prophet", "Cheezy", "Foley", "Mobius", "Ratler", "Edge", "Smaug", "Taun", "Styx"};
     class Ghost { label = "Ghost"; description = "Ghost`s"; };

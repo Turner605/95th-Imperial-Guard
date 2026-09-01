@@ -1,5 +1,5 @@
 class Player {
-    alwaysSelectable = 0;
+	alwaysSelectable = 1;
     labels = "Player";
     values[] = {"Skye", "Havoc", "Hazard", "Neary", "Taylor", "Third", "Dilanza", "Osprey", "Kaz", "King", "Pendragon", "Neron"};
     class Skye { label = "Skye"; description = "Skye's"; };

@@ -1,5 +1,5 @@
 class Player {
-    alwaysSelectable = 0;
+	alwaysSelectable = 1;
     labels = "Player";
     values[] = {"Volt","Sand", "Manila", "Chimera", "Lisek", "Mermaid", "Dracus", "Triage", "Lynx", "Russ", "Specter"};
     class Volt { label = "Volt"; description = "Volt`s Helmet"; };

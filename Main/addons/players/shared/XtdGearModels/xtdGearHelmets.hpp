@@ -2,16 +2,17 @@ author = "95th Aux Team";
 options[] = {"Type", "Player", "Variant"};
 
 class Type {
-	alwaysSelectable = 1;
 	labels = "Type";
-	values[] = {"Helmet", "TankerCap"};
-	class Helmet { label = "Helmet"; description = "Basic Helmet"; };
-	class TankerCap { label = "Tanker"; description = "Tanker Cap"; };
+	values[] = {"Helmet", "Cap"};
+	class Helmet { label = "Helmet"; description = "Helmet"; };
+	class Cap { label = "Cap"; description = "Cap"; };
 };
 
 class Variant {
-	labels = "Phase";
-	values[] = {"Standard","Mask"};
-	class Standard { label = "Standard"; description = "Standard Helmet"; };
-	class Mask { label = "Veteran"; description = "Veteran Only"; };
+	labels = "Variant";
+	values[] = {"Standard", "Masked", "Tanker", "Pilot"};
+	class Standard { label = "Standard"; description = "Standard for all players"; };
+	class Masked { label = "Masked"; description = "Masked for veteran players"; };
+	class Tanker { label = "Tanker"; description = "Tanker for all mechanized"; };
+	class Pilot { label = "Pilot"; description = "Pilot for all pilots"; };
 };

@@ -9,7 +9,6 @@ class Sleeves {
 };
 
 class Type {
-	alwaysSelectable = 1;
 	labels = "Type";
 	values[] = {"Unarmoured", "Light", "Medium", "Heavy", "NCO"};
 	class Unarmoured { label = "Unarmoured"; description = "Unarmoured Uniform"; };

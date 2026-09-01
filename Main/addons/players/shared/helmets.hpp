@@ -51,7 +51,7 @@
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
             Type = QUOTE(Helmet);
-            Variant = QUOTE(Mask);
+            Variant = QUOTE(Masked);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
         class ItemInfo: ItemInfo {
@@ -66,7 +66,7 @@
     };
 #endif
 
-#if TANKER_CAP == 1
+#if TANKER_HEADWEAR == 1
     class Cad_Tnk_Helm: H_HelmetSpecB {
         class ItemInfo;
     };
@@ -82,8 +82,8 @@
         displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
         class XtdGearInfo {
             model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
-            Type = QUOTE(TankerCap);
-            Variant = QUOTE(Standard);
+            Type = QUOTE(Cap);
+            Variant = QUOTE(Tanker);
             Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
         };
         class ItemInfo: ItemInfo {
@@ -96,4 +96,38 @@
             };
         };
     };
+
+    class FIG_MoebianChaosHelm: H_HelmetSpecB {
+        class ItemInfo;
+    };
+    class AUX_95th_40k_IG_Tanker_Helmet_##PLAYER_NAME : FIG_MoebianChaosHelm {
+        scope = 2;
+        scopeArsenal = 2;
+        author="95th Aux Team";
+        DSS_HUD_Lowlight_Enabled = 1;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_MoebianChaosHelm_co.paa)
+        };
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(Tanker);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    armor = 10;
+                    hitpointName = "HitHead";
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+#endif
+
+#if PILOT_HEADWEAR == 1
+    // AUX_95th_40k_IG_Pilot_Helmet_##PLAYER_NAME
 #endif

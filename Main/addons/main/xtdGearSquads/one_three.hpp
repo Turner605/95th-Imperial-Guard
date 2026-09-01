@@ -1,5 +1,5 @@
 class Player {
-    alwaysSelectable = 0;
+	alwaysSelectable = 1;
     labels = "Player";
     values[] = {"MoonShine", "Sparkie", "Mute", "Jack", "Canada", "Charlie", "Grunzit"};
     class MoonShine { label = "MoonShine"; description = "MoonShine`s"; };

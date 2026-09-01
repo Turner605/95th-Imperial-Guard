@@ -11,7 +11,11 @@ private _macroArray = [
     ["AUX_95th_40k_IG_Helmet_Mask_", HELMET_MASK],
 
     ["AUX_95th_40k_IG_Patrol_Cap_", PATROL_CAP],
-    ["AUX_95th_40k_IG_Tanker_Cap_", TANKER_CAP],
+    ["AUX_95th_40k_IG_Tanker_Cap_", TANKER_HEADWEAR],
+    ["AUX_95th_40k_IG_Tanker_Helmet_", TANKER_HEADWEAR],
+
+    ["AUX_95th_40k_IG_Pilot_Helmet_", PILOT_HEADWEAR],
+
     ["AUX_95th_40k_IG_NCO_Cap_", NCO_CAP],
     ["AUX_95th_40k_IG_Officer_Cap_", OFFICER_CAP],
     
