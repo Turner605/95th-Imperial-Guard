@@ -129,5 +129,33 @@
 #endif
 
 #if PILOT_HEADWEAR == 1
-    // AUX_95th_40k_IG_Pilot_Helmet_##PLAYER_NAME
+    class FIG_ElysianHelmMaskVD: H_HelmetSpecB {
+        class ItemInfo;
+    };
+    class AUX_95th_40k_IG_Pilot_Helmet_##PLAYER_NAME : FIG_ElysianHelmMaskVD {
+        scope = 2;
+        scopeArsenal = 2;
+        author="95th Aux Team";
+        DSS_HUD_Lowlight_Enabled = 1;
+        picture=QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\shared\insignias\SQUAD_KEY.paa);
+        displayName=QUOTE([95th] SQUAD_NUMBER SQUAD_NAME Helmets); 
+        hiddenSelectionsTextures[]={
+            QUOTE(\z\AUX_95th_40k_IG_Main\addons\players\PLAYER_NAME\data\helmets\FIG_ElysianHelm_co.paa)
+        };
+        class XtdGearInfo {
+            model = QUOTE(DOUBLES(AUX_95th_Helmet_Squad,SQUAD_KEY));
+            Type = QUOTE(Helmet);
+            Variant = QUOTE(Standard);
+            Player = QUOTE(PLAYER_NAME_BEAUTIFIED);
+        };
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    armor = 10;
+                    hitpointName = "HitHead";
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
 #endif
